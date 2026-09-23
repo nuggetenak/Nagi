@@ -1,0 +1,252 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vocab.invalid/schema/lexicon.json",
+  "title": "L1 lexicon entry (JMdict-anchored core)",
+  "description": "One record per (headword, reading) lexeme. IDs are allocated by tools, never by agents.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "headword",
+    "reading",
+    "pos",
+    "lists",
+    "jmdict",
+    "senses"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.json#/$defs/entryId"
+    },
+    "headword": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 32,
+      "pattern": "^[^\\s《》{}]+$"
+    },
+    "reading": {
+      "$ref": "common.json#/$defs/hira"
+    },
+    "alt_forms": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 32,
+        "pattern": "^[^\\s《》{}]+$"
+      }
+    },
+    "alt_readings": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "common.json#/$defs/hira"
+      }
+    },
+    "pos": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/pos"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]*$"
+      }
+    },
+    "lists": {
+      "description": "Which public list(s) put this word at which JLPT level. 'N3' is source-defined: JLPT publishes no official list.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "src",
+          "level"
+        ],
+        "properties": {
+          "src": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9._/-]*$"
+          },
+          "level": {
+            "$ref": "common.json#/$defs/level"
+          },
+          "ref": {
+            "type": "string",
+            "maxLength": 64
+          },
+          "gloss": {
+            "type": "string",
+            "maxLength": 200
+          }
+        }
+      }
+    },
+    "jmdict": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "seq",
+        "match"
+      ],
+      "properties": {
+        "seq": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "match": {
+          "enum": [
+            "exact",
+            "gloss",
+            "common",
+            "manual"
+          ]
+        },
+        "senses_total": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "senses": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "sid",
+          "en"
+        ],
+        "properties": {
+          "sid": {
+            "$ref": "common.json#/$defs/senseId"
+          },
+          "en": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 6,
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 160
+            }
+          },
+          "pos": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "$ref": "#/$defs/pos"
+            }
+          }
+        }
+      }
+    },
+    "prov": {
+      "$ref": "common.json#/$defs/prov"
+    }
+  },
+  "$defs": {
+    "pos": {
+      "description": "JMdict part-of-speech codes (all codes present in JMdict 3.6.2)",
+      "enum": [
+        "adj-f",
+        "adj-i",
+        "adj-ix",
+        "adj-ku",
+        "adj-na",
+        "adj-nari",
+        "adj-no",
+        "adj-pn",
+        "adj-shiku",
+        "adj-t",
+        "adv",
+        "adv-to",
+        "aux",
+        "aux-adj",
+        "aux-v",
+        "conj",
+        "cop",
+        "ctr",
+        "exp",
+        "int",
+        "n",
+        "n-pref",
+        "n-suf",
+        "num",
+        "pn",
+        "pref",
+        "prt",
+        "suf",
+        "unc",
+        "v-unspec",
+        "v1",
+        "v1-s",
+        "v2a-s",
+        "v2b-k",
+        "v2d-s",
+        "v2g-k",
+        "v2g-s",
+        "v2h-k",
+        "v2h-s",
+        "v2k-k",
+        "v2k-s",
+        "v2m-s",
+        "v2n-s",
+        "v2r-k",
+        "v2r-s",
+        "v2s-s",
+        "v2t-k",
+        "v2t-s",
+        "v2w-s",
+        "v2y-k",
+        "v2y-s",
+        "v2z-s",
+        "v4b",
+        "v4g",
+        "v4h",
+        "v4k",
+        "v4m",
+        "v4r",
+        "v4s",
+        "v4t",
+        "v5aru",
+        "v5b",
+        "v5g",
+        "v5k",
+        "v5k-s",
+        "v5m",
+        "v5n",
+        "v5r",
+        "v5r-i",
+        "v5s",
+        "v5t",
+        "v5u",
+        "v5u-s",
+        "vi",
+        "vk",
+        "vn",
+        "vr",
+        "vs",
+        "vs-c",
+        "vs-i",
+        "vs-s",
+        "vt",
+        "vz"
+      ]
+    }
+  }
+}

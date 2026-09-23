@@ -1,0 +1,1716 @@
+{
+  "packet_id": "P-0001",
+  "type": "review",
+  "layer": "lexicon",
+  "created": "2026-09-22",
+  "role": "Reviewer — sanity-check the 57 non-exact JMdict joins from seed import",
+  "prompt_ref": "TODO: point at your review/QA agent prompt",
+  "reviewer_hint": "These are the words where the seed matcher had to disambiguate between multiple JMdict entries for the same spelling/reading (via gloss overlap or a 'common' tag), not a 1:1 exact join. For each: check headword+reading+senses genuinely describe the intended N3 word (shown in the input as the JMdict-derived content only — the original public-list gloss is NOT shown, judge the JMdict content on its own terms). Fail with sense-mismatch if JMdict's own senses look wrong for this headword/reading pair; fail with wrong-entry if the whole word seems mismatched.",
+  "ids": [
+    "w-000071",
+    "w-000087",
+    "w-000096",
+    "w-000214",
+    "w-000379",
+    "w-000388",
+    "w-000433",
+    "w-000477",
+    "w-000521",
+    "w-000540",
+    "w-000642",
+    "w-000740",
+    "w-000785",
+    "w-000789",
+    "w-000821",
+    "w-000893",
+    "w-000896",
+    "w-000908",
+    "w-000925",
+    "w-000930",
+    "w-000954",
+    "w-000981",
+    "w-000984",
+    "w-000997",
+    "w-001031",
+    "w-001056",
+    "w-001057",
+    "w-001082",
+    "w-001131",
+    "w-001134",
+    "w-001158",
+    "w-001163",
+    "w-001188",
+    "w-001307",
+    "w-001355",
+    "w-001361",
+    "w-001376",
+    "w-001389",
+    "w-001442",
+    "w-001458",
+    "w-001531",
+    "w-001535",
+    "w-001572",
+    "w-001596",
+    "w-001605",
+    "w-001611",
+    "w-001717",
+    "w-001721",
+    "w-001766",
+    "w-001809",
+    "w-001848",
+    "w-001861",
+    "w-001878",
+    "w-001894",
+    "w-001905",
+    "w-001926",
+    "w-002024"
+  ],
+  "input": [
+    {
+      "id": "w-000071",
+      "headword": "しばしば",
+      "reading": "しばしば",
+      "pos": [
+        "adv"
+      ],
+      "senses": [
+        {
+          "en": [
+            "often",
+            "again and again",
+            "frequently",
+            "repeatedly"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-000087",
+      "headword": "しゃべる",
+      "reading": "しゃべる",
+      "pos": [
+        "v5r",
+        "vt",
+        "vi"
+      ],
+      "senses": [
+        {
+          "en": [
+            "to talk",
+            "to chat",
+            "to chatter"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-000096",
+      "headword": "ジュース",
+      "reading": "じゅーす",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "juice"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "soft drink (usu. fruit-based)",
+            "sweetened drink"
+          ],
+          "sid": "s2"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-000214",
+      "headword": "スイッチ",
+      "reading": "すいっち",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "switch"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "switch",
+            "points"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "switch (from one thing to another)",
+            "change"
+          ],
+          "pos": [
+            "n",
+            "vs",
+            "vt"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "common"
+    },
+    {
+      "id": "w-000379",
+      "headword": "いたずら",
+      "reading": "いたずら",
+      "pos": [
+        "n",
+        "vs",
+        "vt",
+        "vi"
+      ],
+      "senses": [
+        {
+          "en": [
+            "mischief",
+            "prank",
+            "trick",
+            "practical joke"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "mischievous",
+            "naughty"
+          ],
+          "pos": [
+            "adj-na"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "pastime",
+            "hobby"
+          ],
+          "pos": [
+            "n",
+            "vs",
+            "vt"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-000388",
+      "headword": "いつか",
+      "reading": "いつか",
+      "pos": [
+        "adv"
+      ],
+      "senses": [
+        {
+          "en": [
+            "sometime",
+            "someday",
+            "one day",
+            "some time or other"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-000433",
+      "headword": "うがい",
+      "reading": "うがい",
+      "pos": [
+        "n",
+        "vs",
+        "vi"
+      ],
+      "senses": [
+        {
+          "en": [
+            "gargling",
+            "rinsing one's mouth"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "common"
+    },
+    {
+      "id": "w-000477",
+      "headword": "エンジン",
+      "reading": "えんじん",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "engine"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-000521",
+      "headword": "おめでとう",
+      "reading": "おめでとう",
+      "pos": [
+        "int"
+      ],
+      "senses": [
+        {
+          "en": [
+            "congratulations!",
+            "well done!",
+            "best wishes!",
+            "all the best!"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-000540",
+      "headword": "カード",
+      "reading": "かーど",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "card (information, filing, etc.)"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "card (greetings, congratulations, etc.)"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "(Western) playing cards"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "common"
+    },
+    {
+      "id": "w-000642",
+      "headword": "河",
+      "reading": "かわ",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "river",
+            "stream"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "River",
+            "the ... river"
+          ],
+          "pos": [
+            "suf"
+          ],
+          "sid": "s2"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-000740",
+      "headword": "共同",
+      "reading": "きょうどう",
+      "pos": [
+        "n",
+        "n-pref",
+        "vs",
+        "vi",
+        "adj-no"
+      ],
+      "senses": [
+        {
+          "en": [
+            "cooperation",
+            "collaboration",
+            "association",
+            "partnership"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "community",
+            "communal use",
+            "common possession",
+            "sharing"
+          ],
+          "sid": "s2"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-000785",
+      "headword": "位",
+      "reading": "くらい",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "throne",
+            "crown",
+            "(nobleman's) seat"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "government position",
+            "court rank"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "social standing",
+            "rank",
+            "class",
+            "echelon"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-000789",
+      "headword": "グラス",
+      "reading": "ぐらす",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "glass (drinking vessel)"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "glass (material)"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "glasses (eyewear)"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "common"
+    },
+    {
+      "id": "w-000821",
+      "headword": "ケース",
+      "reading": "けーす",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "case (container)"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "case (instance, situation)"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "case"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "common"
+    },
+    {
+      "id": "w-000893",
+      "headword": "コード",
+      "reading": "こーど",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "code",
+            "program"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "code",
+            "regulation",
+            "rules"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "code",
+            "symbol set"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "common"
+    },
+    {
+      "id": "w-000896",
+      "headword": "ゴール",
+      "reading": "ごーる",
+      "pos": [
+        "n",
+        "vs",
+        "vi"
+      ],
+      "senses": [
+        {
+          "en": [
+            "goal (in soccer, hockey, etc.)",
+            "basket (in basketball)"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "finish line",
+            "finishing line",
+            "winning post"
+          ],
+          "pos": [
+            "n"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "reaching the finish line",
+            "finishing (a race)"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-000908",
+      "headword": "腰",
+      "reading": "こし",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "lower back",
+            "waist",
+            "hips",
+            "lumbar region"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "body (of hair, noodles, paper, etc.)",
+            "resilience",
+            "spring"
+          ],
+          "sid": "s2"
+        }
+      ],
+      "jmdict_match": "common"
+    },
+    {
+      "id": "w-000925",
+      "headword": "こぼれる",
+      "reading": "こぼれる",
+      "pos": [
+        "v1",
+        "vi"
+      ],
+      "senses": [
+        {
+          "en": [
+            "to spill",
+            "to fall out of",
+            "to overflow"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "to peek through",
+            "to become visible (although normally not)"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "to escape (of a smile, tear, etc.)"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-000930",
+      "headword": "これら",
+      "reading": "これら",
+      "pos": [
+        "pn"
+      ],
+      "senses": [
+        {
+          "en": [
+            "these"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-000954",
+      "headword": "サイン",
+      "reading": "さいん",
+      "pos": [
+        "n",
+        "vs",
+        "vt",
+        "vi"
+      ],
+      "senses": [
+        {
+          "en": [
+            "autograph",
+            "signature"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "sign",
+            "signal",
+            "indication"
+          ],
+          "sid": "s2"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-000981",
+      "headword": "さて",
+      "reading": "さて",
+      "pos": [
+        "conj",
+        "int"
+      ],
+      "senses": [
+        {
+          "en": [
+            "well",
+            "now",
+            "then"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-000984",
+      "headword": "ママ",
+      "reading": "まま",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "mom",
+            "mommy",
+            "mum",
+            "mummy"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "female proprietress (of a bar, etc.)"
+          ],
+          "sid": "s2"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-000997",
+      "headword": "ミス",
+      "reading": "みす",
+      "pos": [
+        "n",
+        "vs",
+        "vi",
+        "vt"
+      ],
+      "senses": [
+        {
+          "en": [
+            "mistake",
+            "error",
+            "blunder"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001031",
+      "headword": "名人",
+      "reading": "めいじん",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "master",
+            "expert"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "Meijin (professional title)"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "Meijin (highest title for male players in competitive karuta)"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001056",
+      "headword": "尤も",
+      "reading": "もっとも",
+      "pos": [
+        "conj"
+      ],
+      "senses": [
+        {
+          "en": [
+            "but then",
+            "although",
+            "though"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "reasonable",
+            "natural",
+            "just"
+          ],
+          "pos": [
+            "adj-na",
+            "n"
+          ],
+          "sid": "s2"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001057",
+      "headword": "元",
+      "reading": "もと",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "origin",
+            "source",
+            "beginning"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "basis",
+            "base",
+            "foundation",
+            "root"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "cause"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "common"
+    },
+    {
+      "id": "w-001082",
+      "headword": "やや",
+      "reading": "やや",
+      "pos": [
+        "adv",
+        "adj-f"
+      ],
+      "senses": [
+        {
+          "en": [
+            "a little",
+            "partially",
+            "somewhat",
+            "slightly"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001131",
+      "headword": "より",
+      "reading": "より",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "twist",
+            "ply"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001134",
+      "headword": "よろしく",
+      "reading": "よろしく",
+      "pos": [
+        "exp",
+        "adv"
+      ],
+      "senses": [
+        {
+          "en": [
+            "well",
+            "properly",
+            "suitably"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "best regards",
+            "please remember me",
+            "please treat me favorably (favourably)",
+            "please take care of"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "just like ...",
+            "as though one were ..."
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "common"
+    },
+    {
+      "id": "w-001158",
+      "headword": "レベル",
+      "reading": "れべる",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "level",
+            "standard",
+            "grade",
+            "class"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "level (amount or quantity)"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "level (plane)"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001163",
+      "headword": "ロケット",
+      "reading": "ろけっと",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "rocket"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "common"
+    },
+    {
+      "id": "w-001188",
+      "headword": "アップ",
+      "reading": "あっぷ",
+      "pos": [
+        "n",
+        "n-suf",
+        "vs",
+        "vt",
+        "vi"
+      ],
+      "senses": [
+        {
+          "en": [
+            "rise",
+            "increase",
+            "raising",
+            "lifting"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "upload",
+            "posting online"
+          ],
+          "pos": [
+            "n",
+            "vs",
+            "vt"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "close-up"
+          ],
+          "pos": [
+            "n",
+            "vs",
+            "vt"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "common"
+    },
+    {
+      "id": "w-001307",
+      "headword": "そっと",
+      "reading": "そっと",
+      "pos": [
+        "adv"
+      ],
+      "senses": [
+        {
+          "en": [
+            "softly",
+            "gently",
+            "quietly",
+            "lightly"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "stealthily",
+            "secretly",
+            "in secret"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "to leave alone",
+            "to leave as it is"
+          ],
+          "pos": [
+            "vs"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001355",
+      "headword": "ダイヤ",
+      "reading": "だいや",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "(railway) schedule",
+            "timetable"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "diagram"
+          ],
+          "sid": "s2"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001361",
+      "headword": "タオル",
+      "reading": "たおる",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "towel"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "common"
+    },
+    {
+      "id": "w-001376",
+      "headword": "ただ",
+      "reading": "ただ",
+      "pos": [
+        "adj-no",
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "ordinary",
+            "common",
+            "usual"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "free of charge",
+            "free"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "unaffected",
+            "as is",
+            "safe"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001389",
+      "headword": "たとえ",
+      "reading": "たとえ",
+      "pos": [
+        "adv"
+      ],
+      "senses": [
+        {
+          "en": [
+            "even if",
+            "no matter (what)",
+            "if",
+            "though"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001442",
+      "headword": "ちゃんと",
+      "reading": "ちゃんと",
+      "pos": [
+        "adv",
+        "vs"
+      ],
+      "senses": [
+        {
+          "en": [
+            "diligently",
+            "seriously",
+            "earnestly",
+            "reliably"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "perfectly",
+            "properly",
+            "exactly",
+            "orderly"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "sufficiently",
+            "satisfactorily"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001458",
+      "headword": "ちょうだい",
+      "reading": "ちょうだい",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "curtained sleeping platform in shinden-style residences (used by people of high rank)"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001531",
+      "headword": "デモ",
+      "reading": "でも",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "demonstration",
+            "protest"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "(giving a) demo",
+            "demonstration",
+            "presentation"
+          ],
+          "sid": "s2"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001535",
+      "headword": "テント",
+      "reading": "てんと",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "tent"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001572",
+      "headword": "解ける",
+      "reading": "とける",
+      "pos": [
+        "v1",
+        "vi"
+      ],
+      "senses": [
+        {
+          "en": [
+            "to be solved",
+            "to be worked out"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "to come loose",
+            "to come untied",
+            "to come undone"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "to be removed (of restrictions)",
+            "to be lifted (e.g. of a ban)",
+            "to be broken (of a spell, curse, etc.)"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001596",
+      "headword": "トラック",
+      "reading": "とらっく",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "(running) track"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "track (on a CD, record, etc.)"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "track event"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001605",
+      "headword": "トン",
+      "reading": "とん",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "ton (esp. a metric ton, i.e. 1000 kg)",
+            "tonne"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001611",
+      "headword": "なお",
+      "reading": "なお",
+      "pos": [
+        "adv"
+      ],
+      "senses": [
+        {
+          "en": [
+            "still",
+            "yet"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "more",
+            "still more",
+            "greater",
+            "further"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "furthermore",
+            "in addition",
+            "moreover",
+            "note that ..."
+          ],
+          "pos": [
+            "conj"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001717",
+      "headword": "はさみ",
+      "reading": "はさみ",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "scissors",
+            "shears",
+            "clippers"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "hole punch"
+          ],
+          "sid": "s2"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001721",
+      "headword": "パス",
+      "reading": "ぱす",
+      "pos": [
+        "n",
+        "vs",
+        "vt",
+        "vi"
+      ],
+      "senses": [
+        {
+          "en": [
+            "passing (an examination, inspection, etc.)"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "pass (for admission, transport, etc.)",
+            "ticket"
+          ],
+          "pos": [
+            "n"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "pass (of a ball)"
+          ],
+          "pos": [
+            "n",
+            "vs",
+            "vt"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "common"
+    },
+    {
+      "id": "w-001766",
+      "headword": "ビール",
+      "reading": "びーる",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "beer"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "common"
+    },
+    {
+      "id": "w-001809",
+      "headword": "ピン",
+      "reading": "ぴん",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "pin (e.g. hairpin, safety pin)"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "(bowling) pin"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "pin",
+            "flagstick"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001848",
+      "headword": "ふと",
+      "reading": "ふと",
+      "pos": [
+        "adv"
+      ],
+      "senses": [
+        {
+          "en": [
+            "suddenly",
+            "casually",
+            "accidentally",
+            "incidentally"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001861",
+      "headword": "プロ",
+      "reading": "ぷろ",
+      "pos": [
+        "n",
+        "adj-no"
+      ],
+      "senses": [
+        {
+          "en": [
+            "professional",
+            "pro"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "program"
+          ],
+          "pos": [
+            "n"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "production"
+          ],
+          "pos": [
+            "n"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001878",
+      "headword": "ベンチ",
+      "reading": "べんち",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "bench"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001894",
+      "headword": "ボート",
+      "reading": "ぼーと",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "boat"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "rowboat",
+            "rowing boat"
+          ],
+          "sid": "s2"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001905",
+      "headword": "ほぼ",
+      "reading": "ほぼ",
+      "pos": [
+        "adv"
+      ],
+      "senses": [
+        {
+          "en": [
+            "almost",
+            "nearly",
+            "for the most part"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "roughly",
+            "approximately",
+            "about",
+            "around"
+          ],
+          "sid": "s2"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-001926",
+      "headword": "まさに",
+      "reading": "まさに",
+      "pos": [
+        "adv"
+      ],
+      "senses": [
+        {
+          "en": [
+            "exactly",
+            "just",
+            "precisely",
+            "really"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "right (when)",
+            "just (as)"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "just (about to)",
+            "on the point of",
+            "on the verge of",
+            "on the brink of"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002024",
+      "headword": "デザート",
+      "reading": "でざーと",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "dessert"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    }
+  ],
+  "base": {
+    "w-000071": "cd3b77a15fd9eee5",
+    "w-000087": "bde58e898ca95946",
+    "w-000096": "6d9a44751c4010ba",
+    "w-000214": "e35dfa3a4612cc9f",
+    "w-000379": "9be4c1929912fad3",
+    "w-000388": "2664c6783a646e28",
+    "w-000433": "e4966ce49f1159c9",
+    "w-000477": "93d037b6b55b6bc3",
+    "w-000521": "d54ddb6e4750acb4",
+    "w-000540": "17fa7d3e89b217a6",
+    "w-000642": "0294a078a76c5861",
+    "w-000740": "7be6608d8900481a",
+    "w-000785": "e5ddd740e6aedcce",
+    "w-000789": "84262acf7ef58f8b",
+    "w-000821": "1c538de952df8e76",
+    "w-000893": "3ca5e388da520d97",
+    "w-000896": "1d51c44153db04e1",
+    "w-000908": "64805790f004daa2",
+    "w-000925": "caf9baa7863fc2c1",
+    "w-000930": "62c8e8ff281a87d8",
+    "w-000954": "b77e0da62e86a5d7",
+    "w-000981": "08e9153f6d923823",
+    "w-000984": "6f266d712b17a60e",
+    "w-000997": "66d0ca12e9093598",
+    "w-001031": "8721dfc6759228e7",
+    "w-001056": "9f5bd78d2cbfbf87",
+    "w-001057": "de82ac51f30288a3",
+    "w-001082": "3582d23fcbd7fada",
+    "w-001131": "0cfcffb8817bcf38",
+    "w-001134": "147752f56632c4a4",
+    "w-001158": "d750fe21d52b2374",
+    "w-001163": "0af283745ff84193",
+    "w-001188": "3dd05c885a50e9c8",
+    "w-001307": "a59259db6aadf738",
+    "w-001355": "132d87b1cd559724",
+    "w-001361": "1330e7ae411aedb9",
+    "w-001376": "e333313720b7a06a",
+    "w-001389": "10e5476f8a2e4b3c",
+    "w-001442": "ff83da5b361fbbec",
+    "w-001458": "042d3881e1f55407",
+    "w-001531": "58d2b8dd10e646be",
+    "w-001535": "e06b24e58ab98196",
+    "w-001572": "0f84798f82196ff8",
+    "w-001596": "f50daf4045e742f8",
+    "w-001605": "62c6d587a3f148d5",
+    "w-001611": "980e2b07f2510c9d",
+    "w-001717": "8c2edf4c4f1aee1a",
+    "w-001721": "8219d7bb03569e45",
+    "w-001766": "947caa9f666223f7",
+    "w-001809": "bc4ec2e4ce454773",
+    "w-001848": "b9b57a3b09ddbbbc",
+    "w-001861": "b5aa184666fb29a0",
+    "w-001878": "38f658a87a39b47a",
+    "w-001894": "51fedde824910613",
+    "w-001905": "6eadb962dc1ff30b",
+    "w-001926": "d9700ec654ba30b8",
+    "w-002024": "f75812e38a2187b0"
+  },
+  "allowed_fields": [
+    "id",
+    "verdict",
+    "codes",
+    "note"
+  ],
+  "output_contract": {
+    "format": "jsonl",
+    "rules": [
+      "Output JSON Lines only: exactly one JSON object per line, no markdown fences, no commentary, no trailing text.",
+      "Return exactly one line for every id/slot listed in the packet. Do not add, drop or rename ids.",
+      "Use only the fields listed in the shape. Extra fields (prov, hash, status, origin, entry, sid) are rejected.",
+      "Never invent ids. Ids come from the packet.",
+      "Each object: {id, verdict:\"pass\"|\"fail\", codes?:[...], note?: string <= 200 chars}.",
+      "codes is REQUIRED when verdict is \"fail\" and must come from the allowed review codes listed in this packet.",
+      "A \"pass\" means the record is correct as written; do not rewrite records in a review packet.",
+      "Allowed codes for layer \"lexicon\": wrong-entry, wrong-reading, wrong-pos, sense-mismatch, other."
+    ],
+    "shape": {
+      "id": "<record id>",
+      "verdict": "pass",
+      "codes": [],
+      "note": ""
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "n3_list": {
+    "repo": "jamsinclair/open-anki-jlpt-decks",
+    "file": "src/n3.csv",
+    "url": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv",
+    "committed_as": "data/seed/n3-public-list.csv",
+    "sha256": "ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+    "retrieved": "2026-09-22",
+    "license": "MIT (this repo's own LICENSE)",
+    "lineage": "repackaged from chyyran/jlpt-anki-decks, which the README traces to tanos.co.uk's JLPT lists. Used here only as a WORD-SELECTION seed (which headwords/readings count as N3) — the authoritative reading/sense content in data/lexicon comes from JMdict, not from this file's own meaning column. See docs/CREDITS.md.",
+    "note": "JLPT has published no official vocabulary list since the 2010 test revision, so every N3 list in existence (this one included) is a community reconstruction, not an official standard."
+  },
+  "jmdict": {
+    "repo": "scriptin/jmdict-simplified",
+    "tag": "3.6.2+20260921173324",
+    "asset": "jmdict-eng-3.6.2+20260921173324.json.zip",
+    "json_file": "data/seed/raw/jmdict-eng-3.6.2.json",
+    "sha256": "f594ed860afb93b09ca4e94f42b3e6b027e602b3f56b4d2e9098fb3e911d656c",
+    "dict_version": "3.6.2",
+    "dict_date": "2026-09-21",
+    "retrieved": "2026-09-22",
+    "license": "CC BY-SA 4.0 (Electronic Dictionary Research and Development Group / EDRDG) — see docs/CREDITS.md",
+    "source_url": "https://github.com/scriptin/jmdict-simplified",
+    "not_committed": "the raw JSON (~118MB) lives only in data/seed/raw/, which is gitignored. Re-fetch with: node tools/fetch-jmdict.js --tag 3.6.2+20260921173324"
+  }
+}

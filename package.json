@@ -1,0 +1,23 @@
+{
+  "name": "nugget-vocab-core",
+  "version": "0.1.0",
+  "description": "Source-of-truth data foundation for the N3 vocab drill (layered JSONL + validator + packet relay)",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "validate": "node tools/validate.js",
+    "fmt": "node tools/fmt.js",
+    "build": "node tools/build.js",
+    "seed": "node tools/seed-import.js",
+    "fetch:jmdict": "node tools/fetch-jmdict.js",
+    "sync": "node tools/jmdict-sync.js",
+    "packet": "node tools/make-packet.js",
+    "apply": "node tools/apply-packet.js",
+    "stamp": "node tools/stamp.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}

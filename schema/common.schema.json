@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vocab.invalid/schema/common.json",
+  "title": "Shared definitions",
+  "$defs": {
+    "entryId": { "type": "string", "pattern": "^w-\\d{6}$" },
+    "sentenceId": { "type": "string", "pattern": "^x-\\d{6}$" },
+    "senseId": { "type": "string", "pattern": "^s[1-9][0-9]?$" },
+    "packetId": { "type": "string", "pattern": "^P-\\d{4}$" },
+    "level": { "enum": ["N5", "N4", "N3", "N2", "N1"] },
+    "hira": { "type": "string", "pattern": "^[\\u3041-\\u3096\\u30fc]+$" },
+    "isoDate": { "type": "string", "format": "date" },
+    "hash": { "type": "string", "pattern": "^[0-9a-f]{16}$" },
+    "actor": {
+      "description": "family/model, e.g. claude/opus-5, gemini/2.5-pro, human/nugget, tool/seed-import",
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*/[A-Za-z0-9._:+-]+$"
+    },
+    "stamp": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["by", "at"],
+      "properties": {
+        "by": { "$ref": "#/$defs/actor" },
+        "at": { "$ref": "#/$defs/isoDate" },
+        "packet": { "$ref": "#/$defs/packetId" },
+        "hash": { "$ref": "#/$defs/hash" },
+        "basis": { "$ref": "#/$defs/hash" }
+      }
+    },
+    "prov": {
+      "description": "Metadata written by tools only. Agents never write this.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "made": { "$ref": "#/$defs/stamp" },
+        "checked": { "allOf": [{ "$ref": "#/$defs/stamp" }, { "type": "object", "properties": { "hash": { "$ref": "#/$defs/hash" } }, "required": ["hash"] }] },
+        "verified": { "allOf": [{ "$ref": "#/$defs/stamp" }, { "type": "object", "properties": { "hash": { "$ref": "#/$defs/hash" } }, "required": ["hash"] }] }
+      }
+    }
+  }
+}

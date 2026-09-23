@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.DS_Store
+# raw source downloads are pinned by sha256 in data/seed/manifest.json, not committed
+data/seed/raw/

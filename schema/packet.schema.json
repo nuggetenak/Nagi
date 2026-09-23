@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vocab.invalid/schema/packet.json",
+  "title": "Task packet envelope (what a courier hands to an agent/model)",
+  "description": "A packet is a data + output contract, NOT an agent prompt. Agent behaviour comes from the existing prompt referenced by prompt_ref.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["packet_id", "type", "layer", "created", "ids", "input", "base", "allowed_fields", "output_contract"],
+  "properties": {
+    "packet_id": { "$ref": "common.json#/$defs/packetId" },
+    "type": { "enum": ["gloss-id", "sentences", "review"] },
+    "layer": { "enum": ["lexicon", "gloss-id", "sentences"] },
+    "created": { "$ref": "common.json#/$defs/isoDate" },
+    "role": { "type": "string", "maxLength": 40 },
+    "prompt_ref": { "type": "string", "maxLength": 200 },
+    "reviewer_hint": { "type": ["string", "null"] },
+    "ids": {
+      "description": "Record ids in scope: entry ids for gloss-id/sentences, ids of the reviewed layer for review.",
+      "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "pattern": "^[wx]-\\d{6}$" }
+    },
+    "slots": {
+      "description": "sentences only: pre-allocated sentence ids with fixed entry/sid. Agents never invent ids.",
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["id", "entry", "sid"],
+        "properties": {
+          "id": { "$ref": "common.json#/$defs/sentenceId" },
+          "entry": { "$ref": "common.json#/$defs/entryId" },
+          "sid": { "$ref": "common.json#/$defs/senseId" }
+        }
+      }
+    },
+    "input": { "type": "array", "minItems": 1, "items": { "type": "object" } },
+    "base": {
+      "description": "Hash of what each id depends on at creation time; apply refuses stale packets.",
+      "type": "object", "additionalProperties": { "$ref": "common.json#/$defs/hash" }
+    },
+    "allowed_fields": { "type": "array", "items": { "type": "string" } },
+    "output_contract": {
+      "type": "object", "additionalProperties": false, "required": ["format", "rules", "shape"],
+      "properties": {
+        "format": { "const": "jsonl" },
+        "rules": { "type": "array", "items": { "type": "string" } },
+        "shape": { "type": "object" }
+      }
+    }
+  }
+}
