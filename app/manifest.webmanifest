@@ -1,0 +1,18 @@
+{
+  "name": "nagi — a calm way through the JLPT word list",
+  "short_name": "nagi",
+  "description": "A calm, JMdict-anchored JLPT vocabulary drill. No streaks, no pressure.",
+  "id": "/",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#EEF1EE",
+  "theme_color": "#16232B",
+  "lang": "en",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

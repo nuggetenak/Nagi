@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>nagi (凪)</title>
+  <meta name="description" content="A calm, JMdict-anchored way through the JLPT word list." />
+  <meta name="theme-color" content="#16232B" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+  <link rel="icon" href="./icons/icon-192.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="topbar__row">
+        <button id="topbar-back" class="topbar__back" style="visibility:hidden">← Back</button>
+        <a class="wordmark" href="#/" aria-label="nagi home">
+          <span class="wordmark__glyph jp">凪</span>
+          <span class="wordmark__name">nagi</span>
+        </a>
+        <span id="topbar-meta" class="topbar__meta"></span>
+      </div>
+    </header>
+    <main id="screen" aria-live="polite"></main>
+  </div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

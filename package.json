@@ -1,9 +1,11 @@
 {
-  "name": "nugget-vocab-core",
+  "name": "nagi",
   "version": "0.1.0",
-  "description": "Source-of-truth data foundation for the N3 vocab drill (layered JSONL + validator + packet relay)",
+  "description": "Nagi (\u51ea) \u2014 a calm, JMdict-anchored JLPT vocabulary platform. This package: the data core (schema, validator, packet relay) plus the installable app.",
   "private": true,
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "validate": "node tools/validate.js",
     "fmt": "node tools/fmt.js",
