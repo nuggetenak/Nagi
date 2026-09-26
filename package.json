@@ -1,7 +1,7 @@
 {
   "name": "nagi",
   "version": "0.1.0",
-  "description": "Nagi (\u51ea) \u2014 a calm, JMdict-anchored JLPT vocabulary platform. This package: the data core (schema, validator, packet relay) plus the installable app.",
+  "description": "Nagi (凪) — a calm, JMdict-anchored JLPT vocabulary platform. This package: the data core (schema, validator, packet relay) plus the installable app.",
   "private": true,
   "engines": {
     "node": ">=20"
@@ -21,5 +21,8 @@
   "dependencies": {
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.1"
   }
 }
