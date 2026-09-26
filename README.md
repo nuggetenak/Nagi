@@ -43,19 +43,23 @@ npm test               # data-core tests + the full app smoke test, one command
 cat HANDOFF.md          # what to run next, always current
 ```
 
-To run the next packet: open `packets/P-0001.md`, attach it to whichever
-review/QA prompt you want to use, run it on any model, save the reply as
+To run the next packet: open `packets/P-0001.md`, paste `agents/reviewer.md`
+first, then the packet's own content, into any model, save the reply as
 JSONL, then:
 
 ```bash
 npm run apply -- --packet packets/P-0001.json --output reply.jsonl --by <model, e.g. gemini/2.5-pro>
 ```
 
-To cut the next batch of work once P-0001 is applied:
+To cut the next batch — sentences are the actual priority right now, they're
+what the cloze drill is waiting on:
 
 ```bash
-npm run packet -- --type gloss-id --n 50 --prompt-ref <path to your vocab-agent prompt>
+npm run packet -- --type sentences --n 30 --prompt-ref agents/sentence-writer.md
 ```
+
+See `agents/README.md` for the full loop (there's also a gloss-simplifying
+role and how review packets fit in).
 
 ## Quickstart — app
 
@@ -82,6 +86,8 @@ data/sentences/        L3 — example/cloze sentences, keyed to L1
 data/seed/             import manifest, raw-source pins, unresolved queue
 data/dist/              `npm run build` output — gitignored, regenerate anytime
 packets/              cut task packets + their paste-ready .md + results
+agents/                the three estafet prompts (sentence-writer, gloss-writer,
+                        reviewer) + how to run the loop — see agents/README.md
 audit/                 append-only ledger + open-issues log (what HANDOFF/PROGRESS read)
 docs/                  BLUEPRINT.md (architecture) + CREDITS.md (licensing)
 test/                   data-core unit + integration tests, isolated fixtures

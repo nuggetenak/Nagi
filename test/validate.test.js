@@ -61,7 +61,7 @@ test('E007: checked stamp by the same actor as made is rejected', () => {
 test('E008: sentence missing ruby / bad cloze is caught, E005 for bad sense ref', () => {
   const root = makeFixtureRoot();
   fs.writeFileSync(path.join(root, 'data/sentences/0001.jsonl'), [
-    JSON.stringify({ id: 'x-000001', entry: 'w-000001', sid: 's1', ja: '今日は{{経験}}した。', tr: { id: 'saya berpengalaman' }, origin: 'ai' }),
+    JSON.stringify({ id: 'x-000001', entry: 'w-000001', sid: 's1', ja: '今日は{{経験}}した。', tr: { en: 'I gained experience today.' }, origin: 'ai' }),
   ].join('\n') + '\n');
   const store = loadStore(root);
   const { errors } = validateStore(store, { ajv: makeAjv(root) });
