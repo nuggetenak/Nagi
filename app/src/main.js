@@ -15,6 +15,10 @@ start();
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
-    navigator.serviceWorker.register("./sw.js").catch(() => { /* offline install still works on next successful visit */ });
+    // Resolve explicitly against the document, not this module's own URL
+    // (src/main.js) — register()'s scriptURL argument is NOT a module
+    // specifier, so leaving this ambiguous risks resolving against the
+    // wrong base depending on the engine. sw.js lives next to index.html.
+    navigator.serviceWorker.register(new URL("sw.js", document.baseURI)).catch(() => { /* offline install still works on next successful visit */ });
   });
 }

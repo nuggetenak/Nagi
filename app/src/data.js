@@ -2,7 +2,10 @@
 // Everything else asks this module for entries; nothing else touches fetch()
 // or the JSON structure directly. Swapping the data source later (a real
 // backend, IndexedDB, whatever) means editing this one file.
-const BUNDLE_URL = "./data/n3-core.json";
+// Resolved against the document explicitly (not this module's own URL at
+// src/data.js) so it's unambiguous regardless of engine quirks around
+// relative-URL resolution for fetch() calls made from inside a module.
+const BUNDLE_URL = new URL("data/n3-core.json", document.baseURI);
 const LEVELS = ["N5", "N4", "N3", "N2", "N1"];
 
 let _bundle = null;

@@ -2,7 +2,7 @@
 // install, serve cache-first, refresh the cache in the background on every
 // fetch so the next launch picks up updates without ever blocking this one.
 // Bump CACHE_NAME (build.js can do this later) to force a clean cache.
-const CACHE_NAME = "nagi-v1";
+const CACHE_NAME = "nagi-v2";
 const SHELL = [
   "./",
   "./index.html",
