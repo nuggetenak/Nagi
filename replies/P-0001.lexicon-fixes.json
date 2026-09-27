@@ -1,0 +1,28 @@
+{
+  "note": "Proposed corrections for the 2 wrong-entry fails from Kagami's review of packets/P-0001.json. Not yet merged into data/lexicon/ — needs manual reconciliation with the real store's schema/provenance fields, see schema/lexicon.schema.json.",
+  "fixes": [
+    {
+      "id": "w-001131",
+      "headword": "より",
+      "reading": "より",
+      "pos": ["prt"],
+      "senses": [
+        {"sid": "s1", "en": ["than"]},
+        {"sid": "s2", "en": ["from", "since"]}
+      ],
+      "review_note": "Original join was a rare noun sense ('twist, ply'). より at N3 is almost always this particle (than/from)."
+    },
+    {
+      "id": "w-001458",
+      "headword": "頂戴",
+      "reading": "ちょうだい",
+      "pos": ["n", "vs", "vt"],
+      "senses": [
+        {"sid": "s1", "en": ["receiving", "getting", "accepting", "being given"]},
+        {"sid": "s2", "en": ["eating", "drinking", "having"]},
+        {"sid": "s3", "en": ["please (give me)", "please (do for me)"], "pos": ["exp"]}
+      ],
+      "review_note": "Original join was an obscure Heian-era term ('curtained sleeping platform'). Everyday N3 usage is the please-give-me expression (s3)."
+    }
+  ]
+}
