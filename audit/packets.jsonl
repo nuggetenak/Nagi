@@ -1,1 +1,2 @@
 {"event":"made","packet_id":"P-0001","type":"review","layer":"lexicon","n":57,"at":"2026-09-22"}
+{"event":"applied","packet_id":"P-0001","type":"review","layer":"lexicon","by":"claude/kagami","applied":57,"rejected":0,"missing":0,"at":"2026-09-27","pass":55,"opened_issues":2}
