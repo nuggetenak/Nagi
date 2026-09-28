@@ -1,0 +1,693 @@
+{
+  "packet_id": "P-0002",
+  "type": "sentences",
+  "layer": "sentences",
+  "created": "2026-09-27",
+  "prompt_ref": "agents/sentence-writer.md",
+  "reviewer_hint": null,
+  "ids": [
+    "x-000001",
+    "x-000002",
+    "x-000003",
+    "x-000004",
+    "x-000005",
+    "x-000006",
+    "x-000007",
+    "x-000008",
+    "x-000009",
+    "x-000010",
+    "x-000011",
+    "x-000012",
+    "x-000013",
+    "x-000014",
+    "x-000015",
+    "x-000016",
+    "x-000017",
+    "x-000018",
+    "x-000019",
+    "x-000020",
+    "x-000021",
+    "x-000022",
+    "x-000023",
+    "x-000024",
+    "x-000025",
+    "x-000026",
+    "x-000027",
+    "x-000028",
+    "x-000029",
+    "x-000030"
+  ],
+  "slots": [
+    {
+      "id": "x-000001",
+      "entry": "w-000001",
+      "sid": "s1"
+    },
+    {
+      "id": "x-000002",
+      "entry": "w-000001",
+      "sid": "s2"
+    },
+    {
+      "id": "x-000003",
+      "entry": "w-000002",
+      "sid": "s1"
+    },
+    {
+      "id": "x-000004",
+      "entry": "w-000003",
+      "sid": "s1"
+    },
+    {
+      "id": "x-000005",
+      "entry": "w-000003",
+      "sid": "s2"
+    },
+    {
+      "id": "x-000006",
+      "entry": "w-000004",
+      "sid": "s1"
+    },
+    {
+      "id": "x-000007",
+      "entry": "w-000004",
+      "sid": "s2"
+    },
+    {
+      "id": "x-000008",
+      "entry": "w-000004",
+      "sid": "s3"
+    },
+    {
+      "id": "x-000009",
+      "entry": "w-000005",
+      "sid": "s1"
+    },
+    {
+      "id": "x-000010",
+      "entry": "w-000005",
+      "sid": "s2"
+    },
+    {
+      "id": "x-000011",
+      "entry": "w-000005",
+      "sid": "s3"
+    },
+    {
+      "id": "x-000012",
+      "entry": "w-000006",
+      "sid": "s1"
+    },
+    {
+      "id": "x-000013",
+      "entry": "w-000006",
+      "sid": "s2"
+    },
+    {
+      "id": "x-000014",
+      "entry": "w-000006",
+      "sid": "s3"
+    },
+    {
+      "id": "x-000015",
+      "entry": "w-000007",
+      "sid": "s1"
+    },
+    {
+      "id": "x-000016",
+      "entry": "w-000007",
+      "sid": "s2"
+    },
+    {
+      "id": "x-000017",
+      "entry": "w-000007",
+      "sid": "s3"
+    },
+    {
+      "id": "x-000018",
+      "entry": "w-000008",
+      "sid": "s1"
+    },
+    {
+      "id": "x-000019",
+      "entry": "w-000008",
+      "sid": "s2"
+    },
+    {
+      "id": "x-000020",
+      "entry": "w-000008",
+      "sid": "s3"
+    },
+    {
+      "id": "x-000021",
+      "entry": "w-000009",
+      "sid": "s1"
+    },
+    {
+      "id": "x-000022",
+      "entry": "w-000010",
+      "sid": "s1"
+    },
+    {
+      "id": "x-000023",
+      "entry": "w-000010",
+      "sid": "s2"
+    },
+    {
+      "id": "x-000024",
+      "entry": "w-000010",
+      "sid": "s3"
+    },
+    {
+      "id": "x-000025",
+      "entry": "w-000011",
+      "sid": "s1"
+    },
+    {
+      "id": "x-000026",
+      "entry": "w-000011",
+      "sid": "s2"
+    },
+    {
+      "id": "x-000027",
+      "entry": "w-000011",
+      "sid": "s3"
+    },
+    {
+      "id": "x-000028",
+      "entry": "w-000012",
+      "sid": "s1"
+    },
+    {
+      "id": "x-000029",
+      "entry": "w-000013",
+      "sid": "s1"
+    },
+    {
+      "id": "x-000030",
+      "entry": "w-000014",
+      "sid": "s1"
+    }
+  ],
+  "input": [
+    {
+      "id": "x-000001",
+      "entry": "w-000001",
+      "sid": "s1",
+      "headword": "作法",
+      "reading": "さほう",
+      "sense": {
+        "en": [
+          "manners",
+          "etiquette",
+          "propriety"
+        ],
+        "sid": "s1"
+      }
+    },
+    {
+      "id": "x-000002",
+      "entry": "w-000001",
+      "sid": "s2",
+      "headword": "作法",
+      "reading": "さほう",
+      "sense": {
+        "en": [
+          "manner of production (esp. of prose, poetry, etc.)",
+          "way of making"
+        ],
+        "sid": "s2"
+      }
+    },
+    {
+      "id": "x-000003",
+      "entry": "w-000002",
+      "sid": "s1",
+      "headword": "様々",
+      "reading": "さまざま",
+      "sense": {
+        "en": [
+          "various",
+          "varied",
+          "diverse",
+          "all sorts of"
+        ],
+        "sid": "s1"
+      }
+    },
+    {
+      "id": "x-000004",
+      "entry": "w-000003",
+      "sid": "s1",
+      "headword": "冷ます",
+      "reading": "さます",
+      "sense": {
+        "en": [
+          "to cool (e.g. from a high temperature to room temperature)",
+          "to let cool"
+        ],
+        "sid": "s1"
+      }
+    },
+    {
+      "id": "x-000005",
+      "entry": "w-000003",
+      "sid": "s2",
+      "headword": "冷ます",
+      "reading": "さます",
+      "sense": {
+        "en": [
+          "to dampen",
+          "to throw a damper on",
+          "to spoil"
+        ],
+        "sid": "s2"
+      }
+    },
+    {
+      "id": "x-000006",
+      "entry": "w-000004",
+      "sid": "s1",
+      "headword": "覚ます",
+      "reading": "さます",
+      "sense": {
+        "en": [
+          "to awaken",
+          "to arouse from sleep"
+        ],
+        "sid": "s1"
+      }
+    },
+    {
+      "id": "x-000007",
+      "entry": "w-000004",
+      "sid": "s2",
+      "headword": "覚ます",
+      "reading": "さます",
+      "sense": {
+        "en": [
+          "to bring to one's senses",
+          "to disabuse (someone of)"
+        ],
+        "sid": "s2"
+      }
+    },
+    {
+      "id": "x-000008",
+      "entry": "w-000004",
+      "sid": "s3",
+      "headword": "覚ます",
+      "reading": "さます",
+      "sense": {
+        "en": [
+          "to sober up"
+        ],
+        "sid": "s3"
+      }
+    },
+    {
+      "id": "x-000009",
+      "entry": "w-000005",
+      "sid": "s1",
+      "headword": "冷める",
+      "reading": "さめる",
+      "sense": {
+        "en": [
+          "to cool down",
+          "to get cold"
+        ],
+        "sid": "s1"
+      }
+    },
+    {
+      "id": "x-000010",
+      "entry": "w-000005",
+      "sid": "s2",
+      "headword": "冷める",
+      "reading": "さめる",
+      "sense": {
+        "en": [
+          "to cool off (excitement, temper, etc.)",
+          "to subside",
+          "to dampen",
+          "to fade"
+        ],
+        "sid": "s2"
+      }
+    },
+    {
+      "id": "x-000011",
+      "entry": "w-000005",
+      "sid": "s3",
+      "headword": "冷める",
+      "reading": "さめる",
+      "sense": {
+        "en": [
+          "to be cold (eyes, expression, etc.)",
+          "to be composed"
+        ],
+        "sid": "s3"
+      }
+    },
+    {
+      "id": "x-000012",
+      "entry": "w-000006",
+      "sid": "s1",
+      "headword": "覚める",
+      "reading": "さめる",
+      "sense": {
+        "en": [
+          "to wake",
+          "to wake up"
+        ],
+        "sid": "s1"
+      }
+    },
+    {
+      "id": "x-000013",
+      "entry": "w-000006",
+      "sid": "s2",
+      "headword": "覚める",
+      "reading": "さめる",
+      "sense": {
+        "en": [
+          "to wear off (of drunkenness, anaesthesia, etc.)",
+          "to regain consciousness",
+          "to sober up"
+        ],
+        "sid": "s2"
+      }
+    },
+    {
+      "id": "x-000014",
+      "entry": "w-000006",
+      "sid": "s3",
+      "headword": "覚める",
+      "reading": "さめる",
+      "sense": {
+        "en": [
+          "to come to one's senses",
+          "to be disillusioned"
+        ],
+        "sid": "s3"
+      }
+    },
+    {
+      "id": "x-000015",
+      "entry": "w-000007",
+      "sid": "s1",
+      "headword": "左右",
+      "reading": "さゆう",
+      "sense": {
+        "en": [
+          "left and right",
+          "right and left"
+        ],
+        "sid": "s1"
+      }
+    },
+    {
+      "id": "x-000016",
+      "entry": "w-000007",
+      "sid": "s2",
+      "headword": "左右",
+      "reading": "さゆう",
+      "sense": {
+        "en": [
+          "(asserting) control",
+          "influence",
+          "domination"
+        ],
+        "pos": [
+          "n",
+          "vs",
+          "vt"
+        ],
+        "sid": "s2"
+      }
+    },
+    {
+      "id": "x-000017",
+      "entry": "w-000007",
+      "sid": "s3",
+      "headword": "左右",
+      "reading": "さゆう",
+      "sense": {
+        "en": [
+          "one's attendants",
+          "people accompanying one"
+        ],
+        "sid": "s3"
+      }
+    },
+    {
+      "id": "x-000018",
+      "entry": "w-000008",
+      "sid": "s1",
+      "headword": "皿",
+      "reading": "さら",
+      "sense": {
+        "en": [
+          "plate",
+          "dish",
+          "platter",
+          "disc"
+        ],
+        "sid": "s1"
+      }
+    },
+    {
+      "id": "x-000019",
+      "entry": "w-000008",
+      "sid": "s2",
+      "headword": "皿",
+      "reading": "さら",
+      "sense": {
+        "en": [
+          "serving",
+          "helping",
+          "course"
+        ],
+        "pos": [
+          "n",
+          "n-suf",
+          "ctr"
+        ],
+        "sid": "s2"
+      }
+    },
+    {
+      "id": "x-000020",
+      "entry": "w-000008",
+      "sid": "s3",
+      "headword": "皿",
+      "reading": "さら",
+      "sense": {
+        "en": [
+          "kanji radical 108 (at the bottom)"
+        ],
+        "sid": "s3"
+      }
+    },
+    {
+      "id": "x-000021",
+      "entry": "w-000009",
+      "sid": "s1",
+      "headword": "更に",
+      "reading": "さらに",
+      "sense": {
+        "en": [
+          "furthermore",
+          "again",
+          "after all",
+          "more and more"
+        ],
+        "sid": "s1"
+      }
+    },
+    {
+      "id": "x-000022",
+      "entry": "w-000010",
+      "sid": "s1",
+      "headword": "去る",
+      "reading": "さる",
+      "sense": {
+        "en": [
+          "to leave",
+          "to go away"
+        ],
+        "sid": "s1"
+      }
+    },
+    {
+      "id": "x-000023",
+      "entry": "w-000010",
+      "sid": "s2",
+      "headword": "去る",
+      "reading": "さる",
+      "sense": {
+        "en": [
+          "to pass",
+          "to elapse"
+        ],
+        "sid": "s2"
+      }
+    },
+    {
+      "id": "x-000024",
+      "entry": "w-000010",
+      "sid": "s3",
+      "headword": "去る",
+      "reading": "さる",
+      "sense": {
+        "en": [
+          "to be distant"
+        ],
+        "sid": "s3"
+      }
+    },
+    {
+      "id": "x-000025",
+      "entry": "w-000011",
+      "sid": "s1",
+      "headword": "猿",
+      "reading": "さる",
+      "sense": {
+        "en": [
+          "monkey (esp. the Japanese macaque, Macaca fuscata)",
+          "ape",
+          "non-human primate"
+        ],
+        "sid": "s1"
+      }
+    },
+    {
+      "id": "x-000026",
+      "entry": "w-000011",
+      "sid": "s2",
+      "headword": "猿",
+      "reading": "さる",
+      "sense": {
+        "en": [
+          "sly person"
+        ],
+        "sid": "s2"
+      }
+    },
+    {
+      "id": "x-000027",
+      "entry": "w-000011",
+      "sid": "s3",
+      "headword": "猿",
+      "reading": "さる",
+      "sense": {
+        "en": [
+          "idiot",
+          "hick"
+        ],
+        "sid": "s3"
+      }
+    },
+    {
+      "id": "x-000028",
+      "entry": "w-000012",
+      "sid": "s1",
+      "headword": "騒ぎ",
+      "reading": "さわぎ",
+      "sense": {
+        "en": [
+          "uproar",
+          "disturbance"
+        ],
+        "sid": "s1"
+      }
+    },
+    {
+      "id": "x-000029",
+      "entry": "w-000013",
+      "sid": "s1",
+      "headword": "参加",
+      "reading": "さんか",
+      "sense": {
+        "en": [
+          "participation",
+          "joining",
+          "entry"
+        ],
+        "sid": "s1"
+      }
+    },
+    {
+      "id": "x-000030",
+      "entry": "w-000014",
+      "sid": "s1",
+      "headword": "参考",
+      "reading": "さんこう",
+      "sense": {
+        "en": [
+          "reference",
+          "consultation"
+        ],
+        "sid": "s1"
+      }
+    }
+  ],
+  "base": {
+    "x-000001": "b9558abf40fa27ee",
+    "x-000002": "b9558abf40fa27ee",
+    "x-000003": "e9bfa4ac74d302b9",
+    "x-000004": "f40f95c219307324",
+    "x-000005": "f40f95c219307324",
+    "x-000006": "025b939ce97b1566",
+    "x-000007": "025b939ce97b1566",
+    "x-000008": "025b939ce97b1566",
+    "x-000009": "496e1af455eff5d4",
+    "x-000010": "496e1af455eff5d4",
+    "x-000011": "496e1af455eff5d4",
+    "x-000012": "210d67e89c38b596",
+    "x-000013": "210d67e89c38b596",
+    "x-000014": "210d67e89c38b596",
+    "x-000015": "8210d83bfa04fdbb",
+    "x-000016": "8210d83bfa04fdbb",
+    "x-000017": "8210d83bfa04fdbb",
+    "x-000018": "a20eace579e86949",
+    "x-000019": "a20eace579e86949",
+    "x-000020": "a20eace579e86949",
+    "x-000021": "81002178ead5db55",
+    "x-000022": "0ca3380874ae1818",
+    "x-000023": "0ca3380874ae1818",
+    "x-000024": "0ca3380874ae1818",
+    "x-000025": "4423538fda046db2",
+    "x-000026": "4423538fda046db2",
+    "x-000027": "4423538fda046db2",
+    "x-000028": "240fbfc970e20a75",
+    "x-000029": "f4352a5615ec05c4",
+    "x-000030": "6e6c3c4486d6d919"
+  },
+  "allowed_fields": [
+    "id",
+    "ja",
+    "tr"
+  ],
+  "output_contract": {
+    "format": "jsonl",
+    "rules": [
+      "Output JSON Lines only: exactly one JSON object per line, no markdown fences, no commentary, no trailing text.",
+      "Return exactly one line for every id/slot listed in the packet. Do not add, drop or rename ids.",
+      "Use only the fields listed in the shape. Extra fields (prov, hash, status, origin, entry, sid) are rejected.",
+      "Never invent ids. Ids come from the packet.",
+      "Each object: {id, ja, tr:{en, id?}} where id is a slot id from packet.slots.",
+      "ja: exactly one {{...}} marker around the target word exactly as it appears in the sentence (inflection allowed).",
+      "ja: EVERY kanji run must be followed by 《hiragana reading》, inside and outside the marker, e.g. {{経験《けいけん》}}.",
+      "ja: no other { } characters; length <= 240 characters including ruby.",
+      "tr.en (English translation) is required; tr.id is an optional future Indonesian pass — leave it out unless asked for it."
+    ],
+    "shape": {
+      "id": "x-000001",
+      "ja": "<sentence with ruby and one {{target}}>",
+      "tr": {
+        "en": "<english translation>"
+      }
+    }
+  }
+}

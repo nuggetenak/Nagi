@@ -10,8 +10,8 @@ _No pending packet. Run `npm run packet -- --help` to cut one._
 
 - **lexicon**: 2082 records — draft 2, checked 2080, verified 0
 - **gloss-id**: 0 records — draft 0, checked 0, verified 0
-- **sentences**: 0 records — draft 0, checked 0, verified 0
-- coverage: gloss 0/2082 entries, sentences 0 (0/2082 entries)
+- **sentences**: 30 records — draft 30, checked 0, verified 0
+- coverage: gloss 0/2082 entries, sentences 30 (14/2082 entries)
 - open issues (failed review, not yet fixed): 2
 
 ## Open issues
