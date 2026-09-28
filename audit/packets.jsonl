@@ -2,3 +2,7 @@
 {"event":"applied","packet_id":"P-0001","type":"review","layer":"lexicon","by":"claude/kagami","applied":57,"rejected":0,"missing":0,"at":"2026-09-27","pass":55,"opened_issues":2}
 {"event":"made","packet_id":"P-0002","type":"sentences","layer":"sentences","n":30,"at":"2026-09-27"}
 {"event":"applied","packet_id":"P-0002","type":"sentences","layer":"sentences","by":"claude/nami","applied":30,"rejected":0,"missing":0,"at":"2026-09-28"}
+{"event":"made","packet_id":"P-0003","type":"review","layer":"sentences","n":30,"at":"2026-09-28"}
+{"event":"applied","packet_id":"P-0003","type":"review","layer":"sentences","by":"claude/kagami","applied":30,"rejected":0,"missing":0,"at":"2026-09-28","pass":26,"opened_issues":4}
+{"event":"made","packet_id":"P-0004","type":"review","layer":"sentences","n":4,"at":"2026-09-28"}
+{"event":"applied","packet_id":"P-0004","type":"review","layer":"sentences","by":"claude/kagami","applied":4,"rejected":0,"missing":0,"at":"2026-09-28","pass":4,"opened_issues":0}

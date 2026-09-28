@@ -1,0 +1,1211 @@
+{
+  "packet_id": "P-0003",
+  "type": "review",
+  "layer": "sentences",
+  "created": "2026-09-28",
+  "prompt_ref": "agents/reviewer.md",
+  "reviewer_hint": "First-ever sentences batch (P-0002, by claude/nami). Check: does the sentence actually test the given sense (not a different sense of the same word)? Is it natural, N3-level-readable Japanese? Is the blank unambiguous? Ruby/cloze mechanics are already schema-checked, so focus on content.",
+  "ids": [
+    "x-000001",
+    "x-000002",
+    "x-000003",
+    "x-000004",
+    "x-000005",
+    "x-000006",
+    "x-000007",
+    "x-000008",
+    "x-000009",
+    "x-000010",
+    "x-000011",
+    "x-000012",
+    "x-000013",
+    "x-000014",
+    "x-000015",
+    "x-000016",
+    "x-000017",
+    "x-000018",
+    "x-000019",
+    "x-000020",
+    "x-000021",
+    "x-000022",
+    "x-000023",
+    "x-000024",
+    "x-000025",
+    "x-000026",
+    "x-000027",
+    "x-000028",
+    "x-000029",
+    "x-000030"
+  ],
+  "input": [
+    {
+      "id": "x-000001",
+      "entry": {
+        "headword": "作法",
+        "reading": "さほう",
+        "pos": [
+          "n"
+        ],
+        "senses": [
+          {
+            "en": [
+              "manners",
+              "etiquette",
+              "propriety"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "manner of production (esp. of prose, poetry, etc.)",
+              "way of making"
+            ],
+            "sid": "s2"
+          }
+        ]
+      },
+      "sid": "s1",
+      "ja": "茶道《さどう》には細《こま》かい{{作法《さほう》}}がある。",
+      "tr": {
+        "en": "There is detailed etiquette in the tea ceremony."
+      }
+    },
+    {
+      "id": "x-000002",
+      "entry": {
+        "headword": "作法",
+        "reading": "さほう",
+        "pos": [
+          "n"
+        ],
+        "senses": [
+          {
+            "en": [
+              "manners",
+              "etiquette",
+              "propriety"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "manner of production (esp. of prose, poetry, etc.)",
+              "way of making"
+            ],
+            "sid": "s2"
+          }
+        ]
+      },
+      "sid": "s2",
+      "ja": "俳句《はいく》には昔《むかし》からの{{作法《さほう》}}がある。",
+      "tr": {
+        "en": "Haiku has a traditional method of composition passed down since long ago."
+      }
+    },
+    {
+      "id": "x-000003",
+      "entry": {
+        "headword": "様々",
+        "reading": "さまざま",
+        "pos": [
+          "adj-na",
+          "n"
+        ],
+        "senses": [
+          {
+            "en": [
+              "various",
+              "varied",
+              "diverse",
+              "all sorts of"
+            ],
+            "sid": "s1"
+          }
+        ]
+      },
+      "sid": "s1",
+      "ja": "この店《みせ》には{{様々《さまざま》}}な商品《しょうひん》がある。",
+      "tr": {
+        "en": "This store has all sorts of different products."
+      }
+    },
+    {
+      "id": "x-000004",
+      "entry": {
+        "headword": "冷ます",
+        "reading": "さます",
+        "pos": [
+          "v5s",
+          "vt"
+        ],
+        "senses": [
+          {
+            "en": [
+              "to cool (e.g. from a high temperature to room temperature)",
+              "to let cool"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "to dampen",
+              "to throw a damper on",
+              "to spoil"
+            ],
+            "sid": "s2"
+          }
+        ]
+      },
+      "sid": "s1",
+      "ja": "熱《あつ》いスープを少《すこ》し{{冷《さ》まして}}から飲《の》んだ。",
+      "tr": {
+        "en": "I let the hot soup cool a little before drinking it."
+      }
+    },
+    {
+      "id": "x-000005",
+      "entry": {
+        "headword": "冷ます",
+        "reading": "さます",
+        "pos": [
+          "v5s",
+          "vt"
+        ],
+        "senses": [
+          {
+            "en": [
+              "to cool (e.g. from a high temperature to room temperature)",
+              "to let cool"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "to dampen",
+              "to throw a damper on",
+              "to spoil"
+            ],
+            "sid": "s2"
+          }
+        ]
+      },
+      "sid": "s2",
+      "ja": "彼《かれ》の一言《ひとこと》がパーティーの雰囲気《ふんいき》を{{冷《さ》ました}}。",
+      "tr": {
+        "en": "His single remark put a damper on the party's atmosphere."
+      }
+    },
+    {
+      "id": "x-000006",
+      "entry": {
+        "headword": "覚ます",
+        "reading": "さます",
+        "pos": [
+          "v5s",
+          "vt"
+        ],
+        "senses": [
+          {
+            "en": [
+              "to awaken",
+              "to arouse from sleep"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "to bring to one's senses",
+              "to disabuse (someone of)"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "to sober up"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s1",
+      "ja": "目覚《めざ》まし時計《どけい》の音《おと》で目《め》を{{覚《さ》ました}}。",
+      "tr": {
+        "en": "I woke up to the sound of my alarm clock."
+      }
+    },
+    {
+      "id": "x-000007",
+      "entry": {
+        "headword": "覚ます",
+        "reading": "さます",
+        "pos": [
+          "v5s",
+          "vt"
+        ],
+        "senses": [
+          {
+            "en": [
+              "to awaken",
+              "to arouse from sleep"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "to bring to one's senses",
+              "to disabuse (someone of)"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "to sober up"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s2",
+      "ja": "彼《かれ》の言葉《ことば》が私《わたし》を甘《あま》い夢《ゆめ》から{{覚《さ》まして}}くれた。",
+      "tr": {
+        "en": "His words shook me out of my sweet, naive dream and back to reality."
+      }
+    },
+    {
+      "id": "x-000008",
+      "entry": {
+        "headword": "覚ます",
+        "reading": "さます",
+        "pos": [
+          "v5s",
+          "vt"
+        ],
+        "senses": [
+          {
+            "en": [
+              "to awaken",
+              "to arouse from sleep"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "to bring to one's senses",
+              "to disabuse (someone of)"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "to sober up"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s3",
+      "ja": "コーヒーを飲《の》んで酔《よ》いを{{覚《さ》まそう}}とした。",
+      "tr": {
+        "en": "I drank coffee, trying to sober up."
+      }
+    },
+    {
+      "id": "x-000009",
+      "entry": {
+        "headword": "冷める",
+        "reading": "さめる",
+        "pos": [
+          "v1",
+          "vi"
+        ],
+        "senses": [
+          {
+            "en": [
+              "to cool down",
+              "to get cold"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "to cool off (excitement, temper, etc.)",
+              "to subside",
+              "to dampen",
+              "to fade"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "to be cold (eyes, expression, etc.)",
+              "to be composed"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s1",
+      "ja": "お茶《ちゃ》が{{冷《さ》めて}}しまった。",
+      "tr": {
+        "en": "The tea has gone cold."
+      }
+    },
+    {
+      "id": "x-000010",
+      "entry": {
+        "headword": "冷める",
+        "reading": "さめる",
+        "pos": [
+          "v1",
+          "vi"
+        ],
+        "senses": [
+          {
+            "en": [
+              "to cool down",
+              "to get cold"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "to cool off (excitement, temper, etc.)",
+              "to subside",
+              "to dampen",
+              "to fade"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "to be cold (eyes, expression, etc.)",
+              "to be composed"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s2",
+      "ja": "時間《じかん》が経《た》つと、彼《かれ》の情熱《じょうねつ》も{{冷《さ》めて}}きた。",
+      "tr": {
+        "en": "As time went by, his enthusiasm cooled off too."
+      }
+    },
+    {
+      "id": "x-000011",
+      "entry": {
+        "headword": "冷める",
+        "reading": "さめる",
+        "pos": [
+          "v1",
+          "vi"
+        ],
+        "senses": [
+          {
+            "en": [
+              "to cool down",
+              "to get cold"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "to cool off (excitement, temper, etc.)",
+              "to subside",
+              "to dampen",
+              "to fade"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "to be cold (eyes, expression, etc.)",
+              "to be composed"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s3",
+      "ja": "彼女《かのじょ》は{{冷《さ》めた}}目《め》でこちらを見《み》ていた。",
+      "tr": {
+        "en": "She looked this way with cold, detached eyes."
+      }
+    },
+    {
+      "id": "x-000012",
+      "entry": {
+        "headword": "覚める",
+        "reading": "さめる",
+        "pos": [
+          "v1",
+          "vi"
+        ],
+        "senses": [
+          {
+            "en": [
+              "to wake",
+              "to wake up"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "to wear off (of drunkenness, anaesthesia, etc.)",
+              "to regain consciousness",
+              "to sober up"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "to come to one's senses",
+              "to be disillusioned"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s1",
+      "ja": "今朝《けさ》は早《はや》く目《め》が{{覚《さ》めた}}。",
+      "tr": {
+        "en": "I woke up early this morning."
+      }
+    },
+    {
+      "id": "x-000013",
+      "entry": {
+        "headword": "覚める",
+        "reading": "さめる",
+        "pos": [
+          "v1",
+          "vi"
+        ],
+        "senses": [
+          {
+            "en": [
+              "to wake",
+              "to wake up"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "to wear off (of drunkenness, anaesthesia, etc.)",
+              "to regain consciousness",
+              "to sober up"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "to come to one's senses",
+              "to be disillusioned"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s2",
+      "ja": "麻酔《ますい》が{{覚《さ》める}}まで病室《びょうしつ》で待《ま》った。",
+      "tr": {
+        "en": "I waited in the hospital room until the anesthesia wore off."
+      }
+    },
+    {
+      "id": "x-000014",
+      "entry": {
+        "headword": "覚める",
+        "reading": "さめる",
+        "pos": [
+          "v1",
+          "vi"
+        ],
+        "senses": [
+          {
+            "en": [
+              "to wake",
+              "to wake up"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "to wear off (of drunkenness, anaesthesia, etc.)",
+              "to regain consciousness",
+              "to sober up"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "to come to one's senses",
+              "to be disillusioned"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s3",
+      "ja": "彼《かれ》は失敗《しっぱい》を通《とお》して、甘《あま》い考《かんが》えから{{覚《さ》めた}}。",
+      "tr": {
+        "en": "Through his failure, he was disillusioned of his naive thinking."
+      }
+    },
+    {
+      "id": "x-000015",
+      "entry": {
+        "headword": "左右",
+        "reading": "さゆう",
+        "pos": [
+          "n"
+        ],
+        "senses": [
+          {
+            "en": [
+              "left and right",
+              "right and left"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "(asserting) control",
+              "influence",
+              "domination"
+            ],
+            "pos": [
+              "n",
+              "vs",
+              "vt"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "one's attendants",
+              "people accompanying one"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s1",
+      "ja": "交差点《こうさてん》では{{左右《さゆう》}}をよく確認《かくにん》してください。",
+      "tr": {
+        "en": "Please check carefully to the left and right at the intersection."
+      }
+    },
+    {
+      "id": "x-000016",
+      "entry": {
+        "headword": "左右",
+        "reading": "さゆう",
+        "pos": [
+          "n"
+        ],
+        "senses": [
+          {
+            "en": [
+              "left and right",
+              "right and left"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "(asserting) control",
+              "influence",
+              "domination"
+            ],
+            "pos": [
+              "n",
+              "vs",
+              "vt"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "one's attendants",
+              "people accompanying one"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s2",
+      "ja": "天気《てんき》がイベントの成功《せいこう》を{{左右《さゆう》}}する。",
+      "tr": {
+        "en": "The weather determines whether the event succeeds."
+      }
+    },
+    {
+      "id": "x-000017",
+      "entry": {
+        "headword": "左右",
+        "reading": "さゆう",
+        "pos": [
+          "n"
+        ],
+        "senses": [
+          {
+            "en": [
+              "left and right",
+              "right and left"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "(asserting) control",
+              "influence",
+              "domination"
+            ],
+            "pos": [
+              "n",
+              "vs",
+              "vt"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "one's attendants",
+              "people accompanying one"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s3",
+      "ja": "王《おう》は{{左右《さゆう》}}の者《もの》に命令《めいれい》を出《だ》した。",
+      "tr": {
+        "en": "The king gave orders to his attendants."
+      }
+    },
+    {
+      "id": "x-000018",
+      "entry": {
+        "headword": "皿",
+        "reading": "さら",
+        "pos": [
+          "n"
+        ],
+        "senses": [
+          {
+            "en": [
+              "plate",
+              "dish",
+              "platter",
+              "disc"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "serving",
+              "helping",
+              "course"
+            ],
+            "pos": [
+              "n",
+              "n-suf",
+              "ctr"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "kanji radical 108 (at the bottom)"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s1",
+      "ja": "料理《りょうり》を{{皿《さら》}}に乗《の》せた。",
+      "tr": {
+        "en": "I placed the food on a plate."
+      }
+    },
+    {
+      "id": "x-000019",
+      "entry": {
+        "headword": "皿",
+        "reading": "さら",
+        "pos": [
+          "n"
+        ],
+        "senses": [
+          {
+            "en": [
+              "plate",
+              "dish",
+              "platter",
+              "disc"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "serving",
+              "helping",
+              "course"
+            ],
+            "pos": [
+              "n",
+              "n-suf",
+              "ctr"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "kanji radical 108 (at the bottom)"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s2",
+      "ja": "このレストランでは一《ひと》{{皿《さら》}}ずつ料理《りょうり》が運《はこ》ばれてくる。",
+      "tr": {
+        "en": "At this restaurant, dishes come out one serving at a time."
+      }
+    },
+    {
+      "id": "x-000020",
+      "entry": {
+        "headword": "皿",
+        "reading": "さら",
+        "pos": [
+          "n"
+        ],
+        "senses": [
+          {
+            "en": [
+              "plate",
+              "dish",
+              "platter",
+              "disc"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "serving",
+              "helping",
+              "course"
+            ],
+            "pos": [
+              "n",
+              "n-suf",
+              "ctr"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "kanji radical 108 (at the bottom)"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s3",
+      "ja": "「盛《も》る」という漢字《かんじ》の下《した》には{{皿《さら》}}という部首《ぶしゅ》がある。",
+      "tr": {
+        "en": "The kanji '盛' has a radical called 皿 at the bottom."
+      }
+    },
+    {
+      "id": "x-000021",
+      "entry": {
+        "headword": "更に",
+        "reading": "さらに",
+        "pos": [
+          "adv",
+          "conj"
+        ],
+        "senses": [
+          {
+            "en": [
+              "furthermore",
+              "again",
+              "after all",
+              "more and more"
+            ],
+            "sid": "s1"
+          }
+        ]
+      },
+      "sid": "s1",
+      "ja": "値段《ねだん》は高《たか》いのに、質《しつ》は{{更《さら》に}}悪《わる》くなった。",
+      "tr": {
+        "en": "Even though the price is high, the quality got even worse."
+      }
+    },
+    {
+      "id": "x-000022",
+      "entry": {
+        "headword": "去る",
+        "reading": "さる",
+        "pos": [
+          "v5r",
+          "vi"
+        ],
+        "senses": [
+          {
+            "en": [
+              "to leave",
+              "to go away"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "to pass",
+              "to elapse"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "to be distant"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s1",
+      "ja": "彼《かれ》は何《なに》も言《い》わずに部屋《へや》を{{去《さ》った}}。",
+      "tr": {
+        "en": "He left the room without saying a word."
+      }
+    },
+    {
+      "id": "x-000023",
+      "entry": {
+        "headword": "去る",
+        "reading": "さる",
+        "pos": [
+          "v5r",
+          "vi"
+        ],
+        "senses": [
+          {
+            "en": [
+              "to leave",
+              "to go away"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "to pass",
+              "to elapse"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "to be distant"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s2",
+      "ja": "楽《たの》しかった夏休《なつやす》みが{{去《さ》って}}いった。",
+      "tr": {
+        "en": "The enjoyable summer vacation came to an end."
+      }
+    },
+    {
+      "id": "x-000024",
+      "entry": {
+        "headword": "去る",
+        "reading": "さる",
+        "pos": [
+          "v5r",
+          "vi"
+        ],
+        "senses": [
+          {
+            "en": [
+              "to leave",
+              "to go away"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "to pass",
+              "to elapse"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "to be distant"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s3",
+      "ja": "ここを{{去《さ》る}}こと十《じゅう》キロメートルの所《ところ》に村《むら》がある。",
+      "tr": {
+        "en": "There is a village ten kilometers from here."
+      }
+    },
+    {
+      "id": "x-000025",
+      "entry": {
+        "headword": "猿",
+        "reading": "さる",
+        "pos": [
+          "n"
+        ],
+        "senses": [
+          {
+            "en": [
+              "monkey (esp. the Japanese macaque, Macaca fuscata)",
+              "ape",
+              "non-human primate"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "sly person"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "idiot",
+              "hick"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s1",
+      "ja": "動物園《どうぶつえん》で{{猿《さる》}}を見《み》た。",
+      "tr": {
+        "en": "I saw a monkey at the zoo."
+      }
+    },
+    {
+      "id": "x-000026",
+      "entry": {
+        "headword": "猿",
+        "reading": "さる",
+        "pos": [
+          "n"
+        ],
+        "senses": [
+          {
+            "en": [
+              "monkey (esp. the Japanese macaque, Macaca fuscata)",
+              "ape",
+              "non-human primate"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "sly person"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "idiot",
+              "hick"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s2",
+      "ja": "彼《かれ》はなかなかの{{猿《さる》}}で、いつも人《ひと》をだます。",
+      "tr": {
+        "en": "He's a real sly fox, always tricking people."
+      }
+    },
+    {
+      "id": "x-000027",
+      "entry": {
+        "headword": "猿",
+        "reading": "さる",
+        "pos": [
+          "n"
+        ],
+        "senses": [
+          {
+            "en": [
+              "monkey (esp. the Japanese macaque, Macaca fuscata)",
+              "ape",
+              "non-human primate"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "sly person"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "idiot",
+              "hick"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s3",
+      "ja": "田舎《いなか》から出《で》てきたばかりの彼《かれ》を、都会《とかい》の人《ひと》たちは{{猿《さる》}}呼《よ》ばわりした。",
+      "tr": {
+        "en": "The city folk called him, fresh from the countryside, a hick."
+      }
+    },
+    {
+      "id": "x-000028",
+      "entry": {
+        "headword": "騒ぎ",
+        "reading": "さわぎ",
+        "pos": [
+          "n",
+          "n-suf"
+        ],
+        "senses": [
+          {
+            "en": [
+              "uproar",
+              "disturbance"
+            ],
+            "sid": "s1"
+          }
+        ]
+      },
+      "sid": "s1",
+      "ja": "駅《えき》の前《まえ》で大《おお》きな{{騒《さわ》ぎ}}が起《お》きた。",
+      "tr": {
+        "en": "A big commotion broke out in front of the station."
+      }
+    },
+    {
+      "id": "x-000029",
+      "entry": {
+        "headword": "参加",
+        "reading": "さんか",
+        "pos": [
+          "n",
+          "vs",
+          "vi"
+        ],
+        "senses": [
+          {
+            "en": [
+              "participation",
+              "joining",
+              "entry"
+            ],
+            "sid": "s1"
+          }
+        ]
+      },
+      "sid": "s1",
+      "ja": "今度《こんど》のマラソン大会《たいかい》に{{参加《さんか》}}するつもりだ。",
+      "tr": {
+        "en": "I intend to participate in the upcoming marathon."
+      }
+    },
+    {
+      "id": "x-000030",
+      "entry": {
+        "headword": "参考",
+        "reading": "さんこう",
+        "pos": [
+          "n"
+        ],
+        "senses": [
+          {
+            "en": [
+              "reference",
+              "consultation"
+            ],
+            "sid": "s1"
+          }
+        ]
+      },
+      "sid": "s1",
+      "ja": "このデータは今後《こんご》の計画《けいかく》の{{参考《さんこう》}}になるだろう。",
+      "tr": {
+        "en": "This data will probably be useful as a reference for future planning."
+      }
+    }
+  ],
+  "base": {
+    "x-000001": "ba380f79b9ec9f3c",
+    "x-000002": "3499341495704534",
+    "x-000003": "153c9c83ae0b7eb4",
+    "x-000004": "ded1bb9d8fedef08",
+    "x-000005": "816f38a5563e7226",
+    "x-000006": "2b615283f8f12847",
+    "x-000007": "07d8191dbf9df719",
+    "x-000008": "7af079f7242fb946",
+    "x-000009": "07d35e6921a5fdaf",
+    "x-000010": "ef46b7c5b9356941",
+    "x-000011": "8094ccb96e18cd10",
+    "x-000012": "d66e00f2cf8f4488",
+    "x-000013": "af73b9844f4f3658",
+    "x-000014": "8acb51cd5f272018",
+    "x-000015": "56c802e1ef1d7c96",
+    "x-000016": "128fbfd65ad2517a",
+    "x-000017": "ea71536da71cb82e",
+    "x-000018": "e4b6643af97f04d0",
+    "x-000019": "9a262311eb53282e",
+    "x-000020": "95c5cfe66569b797",
+    "x-000021": "54ebd1bb398127a0",
+    "x-000022": "23b71f089544b119",
+    "x-000023": "5f1e0f1d4b6f29d1",
+    "x-000024": "2eeb1d47fa3e80bb",
+    "x-000025": "529e99aa78599f94",
+    "x-000026": "4d69f61e8504bd30",
+    "x-000027": "61502c62ad4edfd2",
+    "x-000028": "cfaa62904ae5fba6",
+    "x-000029": "2e437e8baf028624",
+    "x-000030": "dd8b06a210fe6526"
+  },
+  "allowed_fields": [
+    "id",
+    "verdict",
+    "codes",
+    "note"
+  ],
+  "output_contract": {
+    "format": "jsonl",
+    "rules": [
+      "Output JSON Lines only: exactly one JSON object per line, no markdown fences, no commentary, no trailing text.",
+      "Return exactly one line for every id/slot listed in the packet. Do not add, drop or rename ids.",
+      "Use only the fields listed in the shape. Extra fields (prov, hash, status, origin, entry, sid) are rejected.",
+      "Never invent ids. Ids come from the packet.",
+      "Each object: {id, verdict:\"pass\"|\"fail\", codes?:[...], note?: string <= 200 chars}.",
+      "codes is REQUIRED when verdict is \"fail\" and must come from the allowed review codes listed in this packet.",
+      "A \"pass\" means the record is correct as written; do not rewrite records in a review packet.",
+      "Allowed codes for layer \"sentences\": ja-unnatural, ruby-wrong, target-wrong, tr-wrong, level-too-high, ambiguous-blank, other."
+    ],
+    "shape": {
+      "id": "<record id>",
+      "verdict": "pass",
+      "codes": [],
+      "note": ""
+    }
+  }
+}

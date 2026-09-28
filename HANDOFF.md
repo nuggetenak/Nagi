@@ -10,14 +10,18 @@ _No pending packet. Run `npm run packet -- --help` to cut one._
 
 - **lexicon**: 2082 records — draft 2, checked 2080, verified 0
 - **gloss-id**: 0 records — draft 0, checked 0, verified 0
-- **sentences**: 30 records — draft 30, checked 0, verified 0
+- **sentences**: 30 records — draft 0, checked 30, verified 0
 - coverage: gloss 0/2082 entries, sentences 30 (14/2082 entries)
-- open issues (failed review, not yet fixed): 2
+- open issues (failed review, not yet fixed): 6
 
 ## Open issues
 
 - `lexicon:w-001131` [wrong-entry] より here is almost always the common particle meaning 'than/from' at N3 level. This entry ('twist, ply') is a rare, unrelated noun — looks like the wrong JMdict candidate got picked. (packet P-0001)
 - `lexicon:w-001458` [wrong-entry] Everyday ちょうだい means 'please give me' (頂戴). This entry describes a Heian-era curtained sleeping platform — a different, unrelated word matched by mistake. (packet P-0001)
+- `sentences:x-000002` [target-wrong] Reads as testing s1 (etiquette/rules) as much as s2 (manner of composing prose/poetry) -- context doesn't clearly separate the two senses. (packet P-0003)
+- `sentences:x-000014` [level-too-high] ~を通して is above N3; the disillusionment sense itself is fine, just needs simpler surrounding grammar. (packet P-0003)
+- `sentences:x-000024` [ja-unnatural] ここを去ること+distance is grammatical but reads as a dictionary/literary fragment, not natural modern Japanese. (packet P-0003)
+- `sentences:x-000027` [level-too-high] 呼ばわり is well above N3; the hick/idiot sense is fine, needs a simpler verb around it. (packet P-0003)
 
 ## Rules for the next agent
 

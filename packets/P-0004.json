@@ -1,0 +1,195 @@
+{
+  "packet_id": "P-0004",
+  "type": "review",
+  "layer": "sentences",
+  "created": "2026-09-28",
+  "prompt_ref": "agents/reviewer.md",
+  "reviewer_hint": "Follow-up re-review: these 4 were hand-corrected after failing P-0003 (target-wrong / level-too-high / ja-unnatural). Confirm the fixes actually resolve the original issue.",
+  "ids": [
+    "x-000002",
+    "x-000014",
+    "x-000024",
+    "x-000027"
+  ],
+  "input": [
+    {
+      "id": "x-000002",
+      "entry": {
+        "headword": "作法",
+        "reading": "さほう",
+        "pos": [
+          "n"
+        ],
+        "senses": [
+          {
+            "en": [
+              "manners",
+              "etiquette",
+              "propriety"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "manner of production (esp. of prose, poetry, etc.)",
+              "way of making"
+            ],
+            "sid": "s2"
+          }
+        ]
+      },
+      "sid": "s2",
+      "ja": "俳句《はいく》を作《つく》るときの{{作法《さほう》}}を先生《せんせい》に習《なら》った。",
+      "tr": {
+        "en": "I learned from my teacher the proper method of composing haiku."
+      }
+    },
+    {
+      "id": "x-000014",
+      "entry": {
+        "headword": "覚める",
+        "reading": "さめる",
+        "pos": [
+          "v1",
+          "vi"
+        ],
+        "senses": [
+          {
+            "en": [
+              "to wake",
+              "to wake up"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "to wear off (of drunkenness, anaesthesia, etc.)",
+              "to regain consciousness",
+              "to sober up"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "to come to one's senses",
+              "to be disillusioned"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s3",
+      "ja": "その話《はなし》を聞《き》いて、彼《かれ》はやっと甘《あま》い考《かんが》えから{{覚《さ》めた}}。",
+      "tr": {
+        "en": "Hearing that story, he finally woke up from his naive thinking."
+      }
+    },
+    {
+      "id": "x-000024",
+      "entry": {
+        "headword": "去る",
+        "reading": "さる",
+        "pos": [
+          "v5r",
+          "vi"
+        ],
+        "senses": [
+          {
+            "en": [
+              "to leave",
+              "to go away"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "to pass",
+              "to elapse"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "to be distant"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s3",
+      "ja": "今《いま》を{{去《さ》る}}こと十年《じゅうねん》前《まえ》、この町《まち》に大《おお》きな祭《まつ》りがあった。",
+      "tr": {
+        "en": "Ten years ago from now, there was a big festival in this town."
+      }
+    },
+    {
+      "id": "x-000027",
+      "entry": {
+        "headword": "猿",
+        "reading": "さる",
+        "pos": [
+          "n"
+        ],
+        "senses": [
+          {
+            "en": [
+              "monkey (esp. the Japanese macaque, Macaca fuscata)",
+              "ape",
+              "non-human primate"
+            ],
+            "sid": "s1"
+          },
+          {
+            "en": [
+              "sly person"
+            ],
+            "sid": "s2"
+          },
+          {
+            "en": [
+              "idiot",
+              "hick"
+            ],
+            "sid": "s3"
+          }
+        ]
+      },
+      "sid": "s3",
+      "ja": "都会《とかい》の人《ひと》たちは田舎者《いなかもの》の彼《かれ》を{{猿《さる》}}だと馬鹿《ばか》にした。",
+      "tr": {
+        "en": "The city folk mocked him as a country bumpkin, calling him an idiot."
+      }
+    }
+  ],
+  "base": {
+    "x-000002": "ab7b4c94a1982fa7",
+    "x-000014": "9638ffdbae479c8b",
+    "x-000024": "e301a01f41b32654",
+    "x-000027": "e1e481f12c21a8bd"
+  },
+  "allowed_fields": [
+    "id",
+    "verdict",
+    "codes",
+    "note"
+  ],
+  "output_contract": {
+    "format": "jsonl",
+    "rules": [
+      "Output JSON Lines only: exactly one JSON object per line, no markdown fences, no commentary, no trailing text.",
+      "Return exactly one line for every id/slot listed in the packet. Do not add, drop or rename ids.",
+      "Use only the fields listed in the shape. Extra fields (prov, hash, status, origin, entry, sid) are rejected.",
+      "Never invent ids. Ids come from the packet.",
+      "Each object: {id, verdict:\"pass\"|\"fail\", codes?:[...], note?: string <= 200 chars}.",
+      "codes is REQUIRED when verdict is \"fail\" and must come from the allowed review codes listed in this packet.",
+      "A \"pass\" means the record is correct as written; do not rewrite records in a review packet.",
+      "Allowed codes for layer \"sentences\": ja-unnatural, ruby-wrong, target-wrong, tr-wrong, level-too-high, ambiguous-blank, other."
+    ],
+    "shape": {
+      "id": "<record id>",
+      "verdict": "pass",
+      "codes": [],
+      "note": ""
+    }
+  }
+}
