@@ -10,6 +10,17 @@
     "lineage": "repackaged from chyyran/jlpt-anki-decks, which the README traces to tanos.co.uk's JLPT lists. Used here only as a WORD-SELECTION seed (which headwords/readings count as N3) — the authoritative reading/sense content in data/lexicon comes from JMdict, not from this file's own meaning column. See docs/CREDITS.md.",
     "note": "JLPT has published no official vocabulary list since the 2010 test revision, so every N3 list in existence (this one included) is a community reconstruction, not an official standard."
   },
+  "n4_list": {
+    "repo": "jamsinclair/open-anki-jlpt-decks",
+    "file": "src/n4.csv",
+    "url": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n4.csv",
+    "committed_as": "data/seed/n4-public-list.csv",
+    "sha256": "0e835f40a8d2a1f191d7aa499076002756fa099b95634758376f43c73793e9f6",
+    "retrieved": "2026-09-29",
+    "license": "MIT (this repo's own LICENSE)",
+    "lineage": "repackaged from chyyran/jlpt-anki-decks, which the README traces to tanos.co.uk's JLPT lists. Used here only as a WORD-SELECTION seed (which headwords/readings count as N3) — the authoritative reading/sense content in data/lexicon comes from JMdict, not from this file's own meaning column. See docs/CREDITS.md.",
+    "note": "Same source and caveats as n3_list: a community reconstruction, used only as a WORD-SELECTION seed; content comes from JMdict. Import output for this list is kept separate as data/seed/unresolved.n4.jsonl and import-report.n4.md so the N3 ones are not overwritten."
+  },
   "jmdict": {
     "repo": "scriptin/jmdict-simplified",
     "tag": "3.6.2+20260921173324",

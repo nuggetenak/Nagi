@@ -59,6 +59,9 @@ says, so the decision below can be made with the facts in hand._
   to copy.
 - **Committed**: `data/seed/n3-public-list.csv` (small, MIT-licensed, kept for
   reproducibility of the seed import).
+- **N4 list**: same source and lineage — `src/n4.csv` from the same repo, committed as
+  `data/seed/n4-public-list.csv` (sha256 pinned in `data/seed/manifest.json` under
+  `n4_list`). Same rules: word-selection seed only, content comes from JMdict.
 
 ### Example sentences (`data/sentences/*.jsonl`)
 Written by whichever agent/model a `sentences`-type packet is run with —

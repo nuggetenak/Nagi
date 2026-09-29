@@ -1,0 +1,135 @@
+{
+  "packet_id": "P-0005",
+  "type": "review",
+  "layer": "lexicon",
+  "created": "2026-09-28",
+  "prompt_ref": "agents/reviewer.md",
+  "reviewer_hint": "Follow-up: these 2 were hand-corrected to the verified JMdict entry (1013190, 1430230) after failing P-0001. Confirm.",
+  "ids": [
+    "w-001131",
+    "w-001458"
+  ],
+  "input": [
+    {
+      "id": "w-001131",
+      "headword": "より",
+      "reading": "より",
+      "pos": [
+        "prt"
+      ],
+      "senses": [
+        {
+          "en": [
+            "than"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "rather than",
+            "instead of",
+            "over",
+            "above"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "from",
+            "out of",
+            "since",
+            "at",
+            "on (and after)"
+          ],
+          "sid": "s3"
+        },
+        {
+          "en": [
+            "except",
+            "but",
+            "other than"
+          ],
+          "sid": "s4"
+        },
+        {
+          "en": [
+            "more"
+          ],
+          "pos": [
+            "adv"
+          ],
+          "sid": "s5"
+        }
+      ],
+      "jmdict_match": "manual"
+    },
+    {
+      "id": "w-001458",
+      "headword": "頂戴",
+      "reading": "ちょうだい",
+      "pos": [
+        "n",
+        "vs",
+        "vt"
+      ],
+      "senses": [
+        {
+          "en": [
+            "receiving",
+            "getting",
+            "accepting",
+            "being given"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "eating",
+            "drinking",
+            "having"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "please (give me; do for me)"
+          ],
+          "pos": [
+            "exp"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "manual"
+    }
+  ],
+  "base": {
+    "w-001131": "068f1267f10578a9",
+    "w-001458": "fb38391b858e4e9e"
+  },
+  "allowed_fields": [
+    "id",
+    "verdict",
+    "codes",
+    "note"
+  ],
+  "output_contract": {
+    "format": "jsonl",
+    "rules": [
+      "Output JSON Lines only: exactly one JSON object per line, no markdown fences, no commentary, no trailing text.",
+      "Return exactly one line for every id/slot listed in the packet. Do not add, drop or rename ids.",
+      "Use only the fields listed in the shape. Extra fields (prov, hash, status, origin, entry, sid) are rejected.",
+      "Never invent ids. Ids come from the packet.",
+      "Each object: {id, verdict:\"pass\"|\"fail\", codes?:[...], note?: string <= 200 chars}.",
+      "codes is REQUIRED when verdict is \"fail\" and must come from the allowed review codes listed in this packet.",
+      "A \"pass\" means the record is correct as written; do not rewrite records in a review packet.",
+      "Allowed codes for layer \"lexicon\": wrong-entry, wrong-reading, wrong-pos, sense-mismatch, other."
+    ],
+    "shape": {
+      "id": "<record id>",
+      "verdict": "pass",
+      "codes": [],
+      "note": ""
+    }
+  }
+}

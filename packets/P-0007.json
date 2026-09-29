@@ -1,0 +1,869 @@
+{
+  "packet_id": "P-0007",
+  "type": "review",
+  "layer": "lexicon",
+  "created": "2026-09-29",
+  "prompt_ref": "agents/reviewer.md",
+  "reviewer_hint": "26 draft joins: 24 new non-exact N4 imports (gloss/common tier) + w-001131/w-001458 (hand-fixed to JMdict 1013190/1430230 by claude/kagami, so a DIFFERENT reviewer is needed).",
+  "ids": [
+    "w-001131",
+    "w-001458",
+    "w-002087",
+    "w-002100",
+    "w-002109",
+    "w-002122",
+    "w-002128",
+    "w-002172",
+    "w-002175",
+    "w-002205",
+    "w-002218",
+    "w-002282",
+    "w-002290",
+    "w-002347",
+    "w-002348",
+    "w-002390",
+    "w-002405",
+    "w-002430",
+    "w-002442",
+    "w-002457",
+    "w-002458",
+    "w-002477",
+    "w-002493",
+    "w-002595",
+    "w-002598",
+    "w-002657"
+  ],
+  "input": [
+    {
+      "id": "w-001131",
+      "headword": "より",
+      "reading": "より",
+      "pos": [
+        "prt"
+      ],
+      "senses": [
+        {
+          "en": [
+            "than"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "rather than",
+            "instead of",
+            "over",
+            "above"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "from",
+            "out of",
+            "since",
+            "at",
+            "on (and after)"
+          ],
+          "sid": "s3"
+        },
+        {
+          "en": [
+            "except",
+            "but",
+            "other than"
+          ],
+          "sid": "s4"
+        },
+        {
+          "en": [
+            "more"
+          ],
+          "pos": [
+            "adv"
+          ],
+          "sid": "s5"
+        }
+      ],
+      "jmdict_match": "manual"
+    },
+    {
+      "id": "w-001458",
+      "headword": "頂戴",
+      "reading": "ちょうだい",
+      "pos": [
+        "n",
+        "vs",
+        "vt"
+      ],
+      "senses": [
+        {
+          "en": [
+            "receiving",
+            "getting",
+            "accepting",
+            "being given"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "eating",
+            "drinking",
+            "having"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "please (give me; do for me)"
+          ],
+          "pos": [
+            "exp"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "manual"
+    },
+    {
+      "id": "w-002087",
+      "headword": "とうとう",
+      "reading": "とうとう",
+      "pos": [
+        "adv"
+      ],
+      "senses": [
+        {
+          "en": [
+            "finally",
+            "at last",
+            "in the end",
+            "ultimately"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002100",
+      "headword": "うかがう",
+      "reading": "うかがう",
+      "pos": [
+        "v5u",
+        "vt"
+      ],
+      "senses": [
+        {
+          "en": [
+            "to call on someone",
+            "to call at a place",
+            "to pay a visit",
+            "to wait on someone"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "to ask",
+            "to inquire"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "to hear",
+            "to be told"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002109",
+      "headword": "もし",
+      "reading": "もし",
+      "pos": [
+        "adv"
+      ],
+      "senses": [
+        {
+          "en": [
+            "if",
+            "in case",
+            "supposing"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "common"
+    },
+    {
+      "id": "w-002122",
+      "headword": "つもり",
+      "reading": "つもり",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "intention",
+            "plan",
+            "purpose",
+            "expectation"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "belief",
+            "assumption",
+            "thought",
+            "conviction"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "estimate",
+            "estimation",
+            "calculation"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "common"
+    },
+    {
+      "id": "w-002128",
+      "headword": "うん",
+      "reading": "うん",
+      "pos": [
+        "int"
+      ],
+      "senses": [
+        {
+          "en": [
+            "yes",
+            "yeah",
+            "uh huh"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "hum",
+            "hmmm",
+            "well",
+            "erm"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "oof"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002172",
+      "headword": "ガス",
+      "reading": "がす",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "gas (as a fuel)"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "gas (state of matter)"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "poison gas"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002175",
+      "headword": "アルバイト",
+      "reading": "あるばいと",
+      "pos": [
+        "n",
+        "vs",
+        "vi"
+      ],
+      "senses": [
+        {
+          "en": [
+            "part-time job",
+            "side job"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "part-time worker"
+          ],
+          "pos": [
+            "n"
+          ],
+          "sid": "s2"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002205",
+      "headword": "さっき",
+      "reading": "さっき",
+      "pos": [
+        "n",
+        "adv"
+      ],
+      "senses": [
+        {
+          "en": [
+            "a short while ago",
+            "a moment ago",
+            "just now",
+            "some time ago"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002218",
+      "headword": "ビル",
+      "reading": "びる",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "multi-floor building",
+            "multi-storey building"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002282",
+      "headword": "ベル",
+      "reading": "べる",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "bell"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002290",
+      "headword": "くれる",
+      "reading": "くれる",
+      "pos": [
+        "v1-s",
+        "vt"
+      ],
+      "senses": [
+        {
+          "en": [
+            "to give",
+            "to let (one) have"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "to give"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "to do for one",
+            "to take the trouble to do"
+          ],
+          "pos": [
+            "aux-v",
+            "v1-s"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002347",
+      "headword": "鏡",
+      "reading": "かがみ",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "mirror",
+            "looking-glass"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "barrel head"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "page added at the beginning of a document mentioning its purpose, date, author, etc."
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002348",
+      "headword": "はず",
+      "reading": "はず",
+      "pos": [
+        "aux"
+      ],
+      "senses": [
+        {
+          "en": [
+            "should (be)",
+            "bound (to be)",
+            "expected (to be)",
+            "must (be)"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "nock (of a bow)"
+          ],
+          "pos": [
+            "n"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "nock (of an arrow)"
+          ],
+          "pos": [
+            "n"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002390",
+      "headword": "パソコン",
+      "reading": "ぱそこん",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "personal computer",
+            "PC"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002405",
+      "headword": "あんな",
+      "reading": "あんな",
+      "pos": [
+        "adj-pn"
+      ],
+      "senses": [
+        {
+          "en": [
+            "that sort of",
+            "that kind of",
+            "like that",
+            "such"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002430",
+      "headword": "うまい",
+      "reading": "うまい",
+      "pos": [
+        "adj-i"
+      ],
+      "senses": [
+        {
+          "en": [
+            "skillful",
+            "skilful",
+            "skilled",
+            "good"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "delicious",
+            "tasty",
+            "good",
+            "nice"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "good (deal, idea, etc.)",
+            "profitable",
+            "promising",
+            "lucky"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002442",
+      "headword": "こう",
+      "reading": "こう",
+      "pos": [
+        "adv"
+      ],
+      "senses": [
+        {
+          "en": [
+            "in this way",
+            "like this",
+            "so",
+            "thus"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "this (much)",
+            "so"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "uh",
+            "er",
+            "mm",
+            "well"
+          ],
+          "pos": [
+            "int"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002457",
+      "headword": "きっと",
+      "reading": "きっと",
+      "pos": [
+        "adv"
+      ],
+      "senses": [
+        {
+          "en": [
+            "surely",
+            "undoubtedly",
+            "almost certainly",
+            "most likely (e.g. 90 percent)"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "sternly",
+            "severely"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "having no slack",
+            "rigid",
+            "stiff",
+            "tight"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002458",
+      "headword": "まず",
+      "reading": "まず",
+      "pos": [
+        "adv"
+      ],
+      "senses": [
+        {
+          "en": [
+            "first (of all)",
+            "firstly",
+            "to begin with",
+            "before anything else"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "probably",
+            "most likely",
+            "almost certainly",
+            "virtually"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "more or less (satisfactory)",
+            "on the whole",
+            "reasonably"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002477",
+      "headword": "妻",
+      "reading": "つま",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "wife"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "garnish (esp. one served with sashimi)",
+            "trimmings"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "accompaniment",
+            "side (remark)"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002493",
+      "headword": "あげる",
+      "reading": "あげる",
+      "pos": [
+        "v1",
+        "vt"
+      ],
+      "senses": [
+        {
+          "en": [
+            "to raise",
+            "to elevate"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "to move something (to a higher place)",
+            "to put onto (e.g. a shelf)"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "to increase (price, quality, status, etc.)",
+            "to raise (a wage)"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "common"
+    },
+    {
+      "id": "w-002595",
+      "headword": "ひげ",
+      "reading": "ひげ",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "moustache",
+            "mustache",
+            "beard",
+            "whiskers"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "whiskers (on a cat, etc.)",
+            "feelers (on an insect, etc.)",
+            "(chin) tuft"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "shadow (on a candlestick chart)"
+          ],
+          "sid": "s3"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002598",
+      "headword": "けれど",
+      "reading": "けれど",
+      "pos": [
+        "conj",
+        "prt"
+      ],
+      "senses": [
+        {
+          "en": [
+            "but",
+            "however",
+            "although"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    },
+    {
+      "id": "w-002657",
+      "headword": "すり",
+      "reading": "すり",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "pickpocket"
+          ],
+          "sid": "s1"
+        }
+      ],
+      "jmdict_match": "gloss"
+    }
+  ],
+  "base": {
+    "w-001131": "068f1267f10578a9",
+    "w-001458": "fb38391b858e4e9e",
+    "w-002087": "a380d77ccb431c87",
+    "w-002100": "9812dd75da4c88a6",
+    "w-002109": "c1839fbe061bd423",
+    "w-002122": "8013ddd7a502b333",
+    "w-002128": "588d72a109564c99",
+    "w-002172": "cd140609cd9e605b",
+    "w-002175": "ea61fbd4877a7a14",
+    "w-002205": "2559dfa2f13bbc7f",
+    "w-002218": "d20f8774dd537815",
+    "w-002282": "0c83120ac5743c39",
+    "w-002290": "9f57d711289721e3",
+    "w-002347": "3f95140f438e4418",
+    "w-002348": "b419fa9f666374e7",
+    "w-002390": "a53db688ad54bcd0",
+    "w-002405": "86f9b2561ec22d17",
+    "w-002430": "7974176d072f69d0",
+    "w-002442": "25cacf8ed2970519",
+    "w-002457": "b3738c57f2623072",
+    "w-002458": "6f548a7cadf4e83a",
+    "w-002477": "c98975405e3f9d1f",
+    "w-002493": "7ef8284f1748b762",
+    "w-002595": "a1450a00f26611a9",
+    "w-002598": "bb185d87f0f95abf",
+    "w-002657": "f0d32e4d211b9122"
+  },
+  "allowed_fields": [
+    "id",
+    "verdict",
+    "codes",
+    "note"
+  ],
+  "output_contract": {
+    "format": "jsonl",
+    "rules": [
+      "Output JSON Lines only: exactly one JSON object per line, no markdown fences, no commentary, no trailing text.",
+      "Return exactly one line for every id/slot listed in the packet. Do not add, drop or rename ids.",
+      "Use only the fields listed in the shape. Extra fields (prov, hash, status, origin, entry, sid) are rejected.",
+      "Never invent ids. Ids come from the packet.",
+      "Each object: {id, verdict:\"pass\"|\"fail\", codes?:[...], note?: string <= 200 chars}.",
+      "codes is REQUIRED when verdict is \"fail\" and must come from the allowed review codes listed in this packet.",
+      "A \"pass\" means the record is correct as written; do not rewrite records in a review packet.",
+      "Allowed codes for layer \"lexicon\": wrong-entry, wrong-reading, wrong-pos, sense-mismatch, other."
+    ],
+    "shape": {
+      "id": "<record id>",
+      "verdict": "pass",
+      "codes": [],
+      "note": ""
+    }
+  }
+}

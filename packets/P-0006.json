@@ -1,0 +1,1237 @@
+{
+  "packet_id": "P-0006",
+  "type": "gloss-id",
+  "layer": "gloss-id",
+  "created": "2026-09-29",
+  "role": "Shizuku (gloss, N4)",
+  "prompt_ref": "agents/gloss-writer.md",
+  "reviewer_hint": null,
+  "ids": [
+    "w-002083",
+    "w-002084",
+    "w-002085",
+    "w-002086",
+    "w-002088",
+    "w-002089",
+    "w-002090",
+    "w-002091",
+    "w-002092",
+    "w-002093",
+    "w-002094",
+    "w-002095",
+    "w-002096",
+    "w-002097",
+    "w-002098",
+    "w-002099",
+    "w-002101",
+    "w-002102",
+    "w-002103",
+    "w-002104",
+    "w-002105",
+    "w-002106",
+    "w-002107",
+    "w-002108",
+    "w-002110",
+    "w-002111",
+    "w-002112",
+    "w-002113",
+    "w-002114",
+    "w-002115",
+    "w-002116",
+    "w-002117",
+    "w-002118",
+    "w-002119",
+    "w-002120",
+    "w-002121",
+    "w-002123",
+    "w-002124",
+    "w-002125",
+    "w-002126"
+  ],
+  "input": [
+    {
+      "id": "w-002083",
+      "headword": "踏む",
+      "reading": "ふむ",
+      "pos": [
+        "v5m",
+        "vt"
+      ],
+      "senses": [
+        {
+          "en": [
+            "to step on",
+            "to tread on",
+            "to trample on"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "to set foot on (e.g. foreign soil)",
+            "to stand on",
+            "to visit"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "to experience",
+            "to undergo"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002084",
+      "headword": "すっと",
+      "reading": "すっと",
+      "pos": [
+        "adv",
+        "vs"
+      ],
+      "senses": [
+        {
+          "en": [
+            "straight",
+            "quickly",
+            "directly",
+            "all of a sudden"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "quietly",
+            "gently",
+            "softly"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "to feel refreshed",
+            "to feel satisfied"
+          ],
+          "pos": [
+            "vs"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002085",
+      "headword": "盗む",
+      "reading": "ぬすむ",
+      "pos": [
+        "v5m",
+        "vt"
+      ],
+      "senses": [
+        {
+          "en": [
+            "to steal"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "to plagiarize",
+            "to steal (a technique, idea, etc.)",
+            "to watch and learn"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "to do stealthily"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002086",
+      "headword": "大抵",
+      "reading": "たいてい",
+      "pos": [
+        "adj-na",
+        "adv",
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "mostly",
+            "ordinarily",
+            "usually",
+            "generally"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "probably"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "most",
+            "almost all"
+          ],
+          "pos": [
+            "adj-no",
+            "n"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002088",
+      "headword": "ガソリン",
+      "reading": "がそりん",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "gasoline",
+            "petrol"
+          ],
+          "sid": "s1"
+        }
+      ]
+    },
+    {
+      "id": "w-002089",
+      "headword": "鳴る",
+      "reading": "なる",
+      "pos": [
+        "v5r",
+        "vi"
+      ],
+      "senses": [
+        {
+          "en": [
+            "to sound",
+            "to ring",
+            "to resound",
+            "to echo"
+          ],
+          "sid": "s1"
+        }
+      ]
+    },
+    {
+      "id": "w-002090",
+      "headword": "しっかり",
+      "reading": "しっかり",
+      "pos": [
+        "adv",
+        "adv-to",
+        "vs"
+      ],
+      "senses": [
+        {
+          "en": [
+            "tightly (holding on)",
+            "firmly",
+            "securely"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "strongly (built)",
+            "solidly",
+            "sturdily",
+            "steadily"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "properly",
+            "well",
+            "sufficiently",
+            "hard (working, etc.)"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002091",
+      "headword": "生きる",
+      "reading": "いきる",
+      "pos": [
+        "v1",
+        "vi"
+      ],
+      "senses": [
+        {
+          "en": [
+            "to live",
+            "to exist"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "to make a living",
+            "to subsist"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "to be in effect",
+            "to be in use",
+            "to function"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002092",
+      "headword": "苦い",
+      "reading": "にがい",
+      "pos": [
+        "adj-i"
+      ],
+      "senses": [
+        {
+          "en": [
+            "bitter (taste)"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "sour (expression, look)",
+            "bitter",
+            "displeased",
+            "unpleasant"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "bitter (e.g. experience)",
+            "painful",
+            "distressing",
+            "hard"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002093",
+      "headword": "沸く",
+      "reading": "わく",
+      "pos": [
+        "v5k",
+        "vi"
+      ],
+      "senses": [
+        {
+          "en": [
+            "to grow hot (e.g. water)",
+            "to boil"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "to get excited (at)",
+            "to erupt (in applause, cheering, etc.)",
+            "to be in a ferment",
+            "to take place energetically"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "to ferment"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002094",
+      "headword": "意見",
+      "reading": "いけん",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "opinion",
+            "view",
+            "comment"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "scolding",
+            "reprimand",
+            "rebuke",
+            "admonition"
+          ],
+          "pos": [
+            "n",
+            "vs",
+            "vt",
+            "vi"
+          ],
+          "sid": "s2"
+        }
+      ]
+    },
+    {
+      "id": "w-002095",
+      "headword": "漫画",
+      "reading": "まんが",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "cartoon",
+            "comic",
+            "comic strip",
+            "manga"
+          ],
+          "sid": "s1"
+        }
+      ]
+    },
+    {
+      "id": "w-002096",
+      "headword": "ステレオ",
+      "reading": "すてれお",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "stereo (sound)"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "stereo (player, set)"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "stereo",
+            "stereophonic",
+            "stereoscopic"
+          ],
+          "pos": [
+            "adj-f"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002097",
+      "headword": "医学",
+      "reading": "いがく",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "medicine",
+            "medical science"
+          ],
+          "sid": "s1"
+        }
+      ]
+    },
+    {
+      "id": "w-002098",
+      "headword": "テキスト",
+      "reading": "てきすと",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "text"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "textbook"
+          ],
+          "sid": "s2"
+        }
+      ]
+    },
+    {
+      "id": "w-002099",
+      "headword": "折る",
+      "reading": "おる",
+      "pos": [
+        "v5r",
+        "vt"
+      ],
+      "senses": [
+        {
+          "en": [
+            "to break",
+            "to fracture",
+            "to break off",
+            "to snap off"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "to fold",
+            "to bend"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "to make (origami)"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002101",
+      "headword": "聞こえる",
+      "reading": "きこえる",
+      "pos": [
+        "v1",
+        "vi"
+      ],
+      "senses": [
+        {
+          "en": [
+            "to be heard",
+            "to be audible",
+            "to reach one's ears"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "to sound (like)",
+            "to come across (as)"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "to be well known",
+            "to be famous"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002102",
+      "headword": "僕",
+      "reading": "ぼく",
+      "pos": [
+        "pn"
+      ],
+      "senses": [
+        {
+          "en": [
+            "I",
+            "me"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "you"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "manservant"
+          ],
+          "pos": [
+            "n"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002103",
+      "headword": "必ず",
+      "reading": "かならず",
+      "pos": [
+        "adv"
+      ],
+      "senses": [
+        {
+          "en": [
+            "always",
+            "without exception",
+            "necessarily",
+            "certainly"
+          ],
+          "sid": "s1"
+        }
+      ]
+    },
+    {
+      "id": "w-002104",
+      "headword": "壊す",
+      "reading": "こわす",
+      "pos": [
+        "v5s",
+        "vt"
+      ],
+      "senses": [
+        {
+          "en": [
+            "to break",
+            "to destroy",
+            "to demolish"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "to wreck",
+            "to ruin",
+            "to spoil",
+            "to damage"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "to break (a bill, etc.)"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002105",
+      "headword": "怒る",
+      "reading": "おこる",
+      "pos": [
+        "v5r",
+        "vi"
+      ],
+      "senses": [
+        {
+          "en": [
+            "to get angry",
+            "to get mad",
+            "to lose one's temper"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "to scold",
+            "to tell (someone) off"
+          ],
+          "pos": [
+            "v5r",
+            "vt"
+          ],
+          "sid": "s2"
+        }
+      ]
+    },
+    {
+      "id": "w-002106",
+      "headword": "床屋",
+      "reading": "とこや",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "barbershop",
+            "barber shop",
+            "barber"
+          ],
+          "sid": "s1"
+        }
+      ]
+    },
+    {
+      "id": "w-002107",
+      "headword": "オートバイ",
+      "reading": "おーとばい",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "motorcycle",
+            "motorbike"
+          ],
+          "sid": "s1"
+        }
+      ]
+    },
+    {
+      "id": "w-002108",
+      "headword": "止む",
+      "reading": "やむ",
+      "pos": [
+        "v5m",
+        "vi"
+      ],
+      "senses": [
+        {
+          "en": [
+            "to cease",
+            "to stop",
+            "to be over"
+          ],
+          "sid": "s1"
+        }
+      ]
+    },
+    {
+      "id": "w-002110",
+      "headword": "表",
+      "reading": "おもて",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "surface"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "face (i.e. the visible side of an object)"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "front (of a building, etc.)",
+            "obverse side (i.e. \"head\") of a coin"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002111",
+      "headword": "大学生",
+      "reading": "だいがくせい",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "university student",
+            "college student"
+          ],
+          "sid": "s1"
+        }
+      ]
+    },
+    {
+      "id": "w-002112",
+      "headword": "運転手",
+      "reading": "うんてんしゅ",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "driver",
+            "chauffeur"
+          ],
+          "sid": "s1"
+        }
+      ]
+    },
+    {
+      "id": "w-002113",
+      "headword": "予習",
+      "reading": "よしゅう",
+      "pos": [
+        "n",
+        "vs",
+        "vt"
+      ],
+      "senses": [
+        {
+          "en": [
+            "preparation for a lesson"
+          ],
+          "sid": "s1"
+        }
+      ]
+    },
+    {
+      "id": "w-002114",
+      "headword": "別",
+      "reading": "べつ",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "distinction",
+            "difference",
+            "discrimination"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "separate",
+            "different",
+            "another",
+            "extra"
+          ],
+          "pos": [
+            "adj-no",
+            "adj-na",
+            "n"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "exception",
+            "exclusion"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002115",
+      "headword": "非常に",
+      "reading": "ひじょうに",
+      "pos": [
+        "adv"
+      ],
+      "senses": [
+        {
+          "en": [
+            "very",
+            "extremely",
+            "exceedingly"
+          ],
+          "sid": "s1"
+        }
+      ]
+    },
+    {
+      "id": "w-002116",
+      "headword": "お宅",
+      "reading": "おたく",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "your house",
+            "your home",
+            "your family"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "your husband"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "your organization"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002117",
+      "headword": "柔らかい",
+      "reading": "やわらかい",
+      "pos": [
+        "adj-i"
+      ],
+      "senses": [
+        {
+          "en": [
+            "soft",
+            "tender",
+            "supple",
+            "flexible"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "gentle",
+            "mild",
+            "soft",
+            "mellow"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "light (topic, book, etc.)",
+            "informal"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002118",
+      "headword": "拾う",
+      "reading": "ひろう",
+      "pos": [
+        "v5u",
+        "vt"
+      ],
+      "senses": [
+        {
+          "en": [
+            "to pick up",
+            "to gather"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "to find (and pick up; something someone has dropped)"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "to select",
+            "to choose",
+            "to pick out"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002119",
+      "headword": "気",
+      "reading": "き",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "spirit",
+            "mind",
+            "heart"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "nature",
+            "disposition"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "intention",
+            "mind",
+            "will",
+            "motivation"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002120",
+      "headword": "比べる",
+      "reading": "くらべる",
+      "pos": [
+        "v1",
+        "vt"
+      ],
+      "senses": [
+        {
+          "en": [
+            "to compare",
+            "to make a comparison (between)"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "to compete (on)",
+            "to measure (one's strength, ability, etc. against another's)"
+          ],
+          "sid": "s2"
+        }
+      ]
+    },
+    {
+      "id": "w-002121",
+      "headword": "ほとんど",
+      "reading": "ほとんど",
+      "pos": [
+        "adv"
+      ],
+      "senses": [
+        {
+          "en": [
+            "almost",
+            "nearly",
+            "mostly",
+            "practically"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "hardly",
+            "barely",
+            "scarcely",
+            "little"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "large majority",
+            "large proportion",
+            "greater part",
+            "most (of)"
+          ],
+          "pos": [
+            "n",
+            "adj-no"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002123",
+      "headword": "郊外",
+      "reading": "こうがい",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "suburb",
+            "residential area on the outskirt of a city",
+            "commuter belt"
+          ],
+          "sid": "s1"
+        }
+      ]
+    },
+    {
+      "id": "w-002124",
+      "headword": "だめ",
+      "reading": "だめ",
+      "pos": [
+        "adj-na",
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "no good",
+            "not serving its purpose",
+            "useless",
+            "broken"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "hopeless",
+            "wasted",
+            "in vain",
+            "purposeless"
+          ],
+          "sid": "s2"
+        },
+        {
+          "en": [
+            "cannot",
+            "must not",
+            "not allowed"
+          ],
+          "sid": "s3"
+        }
+      ]
+    },
+    {
+      "id": "w-002125",
+      "headword": "売り場",
+      "reading": "うりば",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "selling area",
+            "counter",
+            "section",
+            "department"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "favorable time to sell",
+            "good time to sell"
+          ],
+          "sid": "s2"
+        }
+      ]
+    },
+    {
+      "id": "w-002126",
+      "headword": "正月",
+      "reading": "しょうがつ",
+      "pos": [
+        "n"
+      ],
+      "senses": [
+        {
+          "en": [
+            "New Year (esp. first three days)"
+          ],
+          "sid": "s1"
+        },
+        {
+          "en": [
+            "first month of the year",
+            "January"
+          ],
+          "sid": "s2"
+        }
+      ]
+    }
+  ],
+  "base": {
+    "w-002083": "a7b3fed0fe6cbef5",
+    "w-002084": "2c6207b0fe3d1f0a",
+    "w-002085": "39620c454d033c4c",
+    "w-002086": "eeea47ae4396cbbe",
+    "w-002088": "ba960ab941cb163f",
+    "w-002089": "7321a217008383ac",
+    "w-002090": "53c764409f467bda",
+    "w-002091": "1b5ce0f20afb17c7",
+    "w-002092": "6418ac1632c81cae",
+    "w-002093": "21b7f72112764207",
+    "w-002094": "25e39cbfdcecd5cd",
+    "w-002095": "0d71db92d0bd4e5c",
+    "w-002096": "25d2aea342ae9f04",
+    "w-002097": "ed0bd42aeb4854fe",
+    "w-002098": "8a3dc8448c777393",
+    "w-002099": "c9bb6dd082e1f5d6",
+    "w-002101": "d6966f45662cd06b",
+    "w-002102": "e0cdf0e6416d579f",
+    "w-002103": "e66f4f5303eb86d1",
+    "w-002104": "b94ae9a41fc75f01",
+    "w-002105": "3be97bd3a50e1730",
+    "w-002106": "1c111712203ff5fe",
+    "w-002107": "9bd044286949f629",
+    "w-002108": "30e4e7c99e1fa54e",
+    "w-002110": "66e102f68423810e",
+    "w-002111": "e86b7cc582d85198",
+    "w-002112": "93777b59212b4965",
+    "w-002113": "b0363271151bf13c",
+    "w-002114": "eeaa2dde64bf73a9",
+    "w-002115": "a6f4a5a3801bdf65",
+    "w-002116": "660aab171e499418",
+    "w-002117": "dd11d88fb101ce61",
+    "w-002118": "667d7e9e5b4858dd",
+    "w-002119": "57f733bb62d0eeea",
+    "w-002120": "e795762494f777f0",
+    "w-002121": "8ec959166ba3162a",
+    "w-002123": "7f1900e62251e12f",
+    "w-002124": "3f54c2bd090a596c",
+    "w-002125": "845a21b618b497cf",
+    "w-002126": "32a57038710f3a4c"
+  },
+  "allowed_fields": [
+    "id",
+    "senses"
+  ],
+  "output_contract": {
+    "format": "jsonl",
+    "rules": [
+      "Output JSON Lines only: exactly one JSON object per line, no markdown fences, no commentary, no trailing text.",
+      "Return exactly one line for every id/slot listed in the packet. Do not add, drop or rename ids.",
+      "Use only the fields listed in the shape. Extra fields (prov, hash, status, origin, entry, sid) are rejected.",
+      "Never invent ids. Ids come from the packet.",
+      "Each object: {id, senses:[{sid, gloss:[1-3 strings, each <= 60 chars], hint?: string <= 80 chars}]}.",
+      "senses must cover exactly the sids present in the input entry (no more, no fewer).",
+      "gloss[0] is a short, learner-friendly ENGLISH rewrite of JMdict's sense — not a new translation, a clearer restatement (JMdict English is sometimes dense/archaic; this is not)."
+    ],
+    "shape": {
+      "id": "w-000001",
+      "senses": [
+        {
+          "sid": "s1",
+          "gloss": [
+            "<clear english meaning>"
+          ],
+          "hint": "<optional disambiguation>"
+        }
+      ]
+    }
+  }
+}

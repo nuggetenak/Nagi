@@ -6,3 +6,9 @@
 {"event":"applied","packet_id":"P-0003","type":"review","layer":"sentences","by":"claude/kagami","applied":30,"rejected":0,"missing":0,"at":"2026-09-28","pass":26,"opened_issues":4}
 {"event":"made","packet_id":"P-0004","type":"review","layer":"sentences","n":4,"at":"2026-09-28"}
 {"event":"applied","packet_id":"P-0004","type":"review","layer":"sentences","by":"claude/kagami","applied":4,"rejected":0,"missing":0,"at":"2026-09-28","pass":4,"opened_issues":0}
+{"event":"made","packet_id":"P-0005","type":"review","layer":"lexicon","n":2,"at":"2026-09-28"}
+{"event":"applied","packet_id":"P-0005","type":"review","layer":"lexicon","by":"claude/kagami","applied":0,"rejected":2,"missing":0,"at":"2026-09-28","pass":0,"opened_issues":0}
+{"event":"made","packet_id":"P-0006","type":"gloss-id","layer":"gloss-id","n":40,"at":"2026-09-29"}
+{"event":"applied","packet_id":"P-0006","type":"gloss-id","layer":"gloss-id","by":"claude/shizuku","applied":40,"rejected":0,"missing":0,"at":"2026-09-29"}
+{"event":"made","packet_id":"P-0007","type":"review","layer":"lexicon","n":26,"at":"2026-09-29"}
+{"event":"made","packet_id":"P-0008","type":"review","layer":"gloss-id","n":40,"at":"2026-09-29"}
