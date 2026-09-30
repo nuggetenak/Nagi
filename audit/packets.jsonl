@@ -12,3 +12,5 @@
 {"event":"applied","packet_id":"P-0006","type":"gloss-id","layer":"gloss-id","by":"claude/shizuku","applied":40,"rejected":0,"missing":0,"at":"2026-09-29"}
 {"event":"made","packet_id":"P-0007","type":"review","layer":"lexicon","n":26,"at":"2026-09-29"}
 {"event":"made","packet_id":"P-0008","type":"review","layer":"gloss-id","n":40,"at":"2026-09-29"}
+{"event":"made","packet_id":"P-0009","type":"gloss-id","layer":"gloss-id","n":50,"at":"2026-09-30"}
+{"event":"applied","packet_id":"P-0009","type":"gloss-id","layer":"gloss-id","by":"claude/shizuku","applied":50,"rejected":0,"missing":0,"at":"2026-09-30"}
