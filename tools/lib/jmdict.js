@@ -71,15 +71,19 @@ const isCommon = (w) => w.kanji.some((k) => k.common) || w.kana.some((k) => k.co
 const cleanField = (s) => String(s).trim().replace(/\s*[(（][^)）]*[)）]\s*$/, '').split(/[;；]/).map((x) => x.trim()).filter(Boolean);
 
 function normalizeRow(row) {
+  const forms = cleanField(row.expression);
+  let readings = cleanField(row.reading).map(kata2hira);
+  // blank reading column + all-kana expression: the expression IS the reading
+  if (!readings.length && forms.length && forms.every(isKanaOnly)) readings = forms.map(kata2hira);
   return {
-    forms: cleanField(row.expression),
-    readings: cleanField(row.reading).map(kata2hira),
+    forms,
+    readings,
     meaning: (row.meaning || '').trim(),
     guid: (row.guid || '').trim(),
   };
 }
 
-function matchRow(nr, idx) {
+function matchOnce(nr, idx) {
   const cand = new Set();
   for (const f of nr.forms) for (const r of nr.readings) for (const id of idx.pair.get(`${f}\t${r}`) || []) cand.add(id);
   let tier = 'pair';
@@ -98,6 +102,38 @@ function matchRow(nr, idx) {
   const common = candidates.filter((id) => isCommon(idx.byId.get(id)));
   if (common.length === 1) return { status: 'common', id: common[0], tier, candidates };
   return { status: 'ambiguous', candidates };
+}
+
+// ---------- formatting quirks in public lists ----------
+// A row that finds nothing AS WRITTEN is retried with these cleanups, in order; the first
+// retry that finds something wins. The cleaned row that matched is returned as `row` so the
+// caller picks headword/reading from the same text. Rows that already match are untouched.
+//   suru:  "運動 / うんどうする", "けがする / けがする"  -> JMdict stores the noun (vs) without する
+//   affix: "～区 / ～く", "御～ / ご～", "～(に) よると"  -> bound forms and patterns, matched as the
+//          base word. These are recorded as match 'manual' (never 'exact'): the join needs
+//          another actor's check that the base word really is what the list meant.
+const stripSuru = (s) => (s.length > 2 && s.endsWith('する') ? s.slice(0, -2) : s);
+const stripAffix = (s) => s.replace(/[～~〜]/g, '').replace(/[()（）\s]/g, '');
+const sameRow = (a, b) => a.forms.join('|') === b.forms.join('|') && a.readings.join('|') === b.readings.join('|');
+
+function fallbackRows(nr) {
+  const out = [];
+  const suru = { ...nr, forms: nr.forms.map(stripSuru), readings: nr.readings.map(stripSuru) };
+  if (!sameRow(suru, nr)) out.push(['suru', suru]);
+  const affix = { ...nr, forms: nr.forms.map(stripAffix).filter(Boolean), readings: nr.readings.map(stripAffix).filter(Boolean) };
+  if (affix.forms.length && affix.readings.length && !sameRow(affix, nr)) out.push(['affix', affix]);
+  return out;
+}
+
+function matchRow(nr, idx) {
+  const first = matchOnce(nr, idx);
+  if (first.status !== 'none') return first;
+  for (const [via, row] of fallbackRows(nr)) {
+    const m = matchOnce(row, idx);
+    if (m.status === 'none') continue;
+    return { ...m, status: via === 'affix' && m.status !== 'ambiguous' ? 'manual' : m.status, via, row };
+  }
+  return first;
 }
 
 const samePos = (a, b) => a.length === b.length && [...a].sort().join() === [...b].sort().join();

@@ -125,7 +125,9 @@ function main() {
       continue;
     }
 
-    const { head, read, altForms, altReadings, notes } = pickHeadwordReading(nr, idx, m.id);
+    const eff = m.row || nr; // the cleaned row that actually matched (see matchRow fallbacks)
+    const { head, read, altForms, altReadings, notes } = pickHeadwordReading(eff, idx, m.id);
+    if (m.via) notes.unshift(`matched after ${m.via} cleanup: "${eff.forms.join('/')}" / "${eff.readings.join('/')}"`);
     if (notes.length) unresolved.push({ raw, reason: 'partial-merge-notes', notes, resolvedTo: seq });
     const content = entryFromWord(idx.byId.get(m.id), {
       headword: head, reading: read, altForms, altReadings, list: listTag, jmdictMatch: m.status,
